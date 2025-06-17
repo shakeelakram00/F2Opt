@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Oct 17 09:34:35 2024
+# Process ID: 9882
+# Current directory: /tmp/finn_dev_shakeelarkam00/vivado_stitch_proj_zf68k0nv
+# Command line: vivado -mode batch -source make_project.tcl
+# Log file: /tmp/finn_dev_shakeelarkam00/vivado_stitch_proj_zf68k0nv/vivado.log
+# Journal file: /tmp/finn_dev_shakeelarkam00/vivado_stitch_proj_zf68k0nv/vivado.jou
+# Running On: shakeelarkam00-Latitude-7520, OS: Linux, CPU Frequency: 1804.800 MHz, CPU Physical cores: 6, Host memory: 11503 MB
+#-----------------------------------------------------------
+source make_project.tcl

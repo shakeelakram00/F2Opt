@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RptDoc cmdline="report_utilization -hierarchical -hierarchical_depth 4 -file synth_report.xml -format xml" designname="top_wrapper" designstate="Physopt postRoute" partname="xc7z020clg400-1" speedfile="-1" title="Utilization Design Information" version="1">
+
+  <section class="" title="Utilization by Hierarchy">
+    <table class="" style="2" title="" useFootnoteNumbers="0">
+      <footnote text="Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining"/>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tableheader class="" contents="Instance" halign="3" width="-1"/>
+        <tableheader class="" contents="Module" halign="3" width="-1"/>
+        <tableheader class="" contents="Total LUTs" halign="3" width="-1"/>
+        <tableheader class="" contents="Logic LUTs" halign="3" width="-1"/>
+        <tableheader class="" contents="LUTRAMs" halign="3" width="-1"/>
+        <tableheader class="" contents="SRLs" halign="3" width="-1"/>
+        <tableheader class="" contents="FFs" halign="3" width="-1"/>
+        <tableheader class="" contents="RAMB36" halign="3" width="-1"/>
+        <tableheader class="" contents="RAMB18" halign="3" width="-1"/>
+        <tableheader class="" contents="DSP Blocks" halign="3" width="-1"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="top_wrapper" halign="1" type="string"/>
+        <tablecell class="" contents="(top)" halign="4" type="string"/>
+        <tablecell class="" contents="13327" halign="4" type="string"/>
+        <tablecell class="" contents="11957" halign="4" type="string"/>
+        <tablecell class="" contents="880" halign="4" type="string"/>
+        <tablecell class="" contents="490" halign="4" type="string"/>
+        <tablecell class="" contents="16188" halign="4" type="string"/>
+        <tablecell class="" contents="10" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  top_i" halign="1" type="string"/>
+        <tablecell class="" contents="top" halign="4" type="string"/>
+        <tablecell class="" contents="13327" halign="4" type="string"/>
+        <tablecell class="" contents="11957" halign="4" type="string"/>
+        <tablecell class="" contents="880" halign="4" type="string"/>
+        <tablecell class="" contents="490" halign="4" type="string"/>
+        <tablecell class="" contents="16188" halign="4" type="string"/>
+        <tablecell class="" contents="10" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    (top_i)" halign="1" type="string"/>
+        <tablecell class="" contents="top" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_1" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0" halign="4" type="string"/>
+        <tablecell class="" contents="1982" halign="4" type="string"/>
+        <tablecell class="" contents="1828" halign="4" type="string"/>
+        <tablecell class="" contents="42" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="1760" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="2" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1" halign="4" type="string"/>
+        <tablecell class="" contents="1982" halign="4" type="string"/>
+        <tablecell class="" contents="1828" halign="4" type="string"/>
+        <tablecell class="" contents="42" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="1760" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="2" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_ConvolutionInputGenerator_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_StreamingDataflowPartition_1_ConvolutionInputGenerator_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="604" halign="4" type="string"/>
+        <tablecell class="" contents="562" halign="4" type="string"/>
+        <tablecell class="" contents="42" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="459" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_MatrixVectorActivation_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_MatrixVectorActivation_0_imp_12DA6W7" halign="4" type="string"/>
+        <tablecell class="" contents="778" halign="4" type="string"/>
+        <tablecell class="" contents="778" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="877" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_0_imp_9WR3XX" halign="4" type="string"/>
+        <tablecell class="" contents="13" halign="4" type="string"/>
+        <tablecell class="" contents="13" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="48" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_StreamingFIFO_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="133" halign="4" type="string"/>
+        <tablecell class="" contents="53" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="80" halign="4" type="string"/>
+        <tablecell class="" contents="22" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_StreamingFIFO_1" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_StreamingFIFO_1_imp_1S3J5QO" halign="4" type="string"/>
+        <tablecell class="" contents="47" halign="4" type="string"/>
+        <tablecell class="" contents="47" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="53" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_StreamingFIFO_2" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0" halign="4" type="string"/>
+        <tablecell class="" contents="87" halign="4" type="string"/>
+        <tablecell class="" contents="55" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="32" halign="4" type="string"/>
+        <tablecell class="" contents="42" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_1_Thresholding_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_1_0_StreamingDataflowPartition_1_StreamingDataflowPartition_1_Thresholding_Batch_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="320" halign="4" type="string"/>
+        <tablecell class="" contents="320" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="259" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_2" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0" halign="4" type="string"/>
+        <tablecell class="" contents="2134" halign="4" type="string"/>
+        <tablecell class="" contents="2001" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="2887" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2" halign="4" type="string"/>
+        <tablecell class="" contents="2134" halign="4" type="string"/>
+        <tablecell class="" contents="2001" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="2887" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_2_ConvolutionInputGenerator_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2_StreamingDataflowPartition_2_ConvolutionInputGenerator_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="710" halign="4" type="string"/>
+        <tablecell class="" contents="598" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="602" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_2_MatrixVectorActivation_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2_MatrixVectorActivation_0_imp_4WNIFB" halign="4" type="string"/>
+        <tablecell class="" contents="909" halign="4" type="string"/>
+        <tablecell class="" contents="909" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1554" halign="4" type="string"/>
+        <tablecell class="" contents="4" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_2_StreamingDataWidthConverter_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2_StreamingDataflowPartition_2_StreamingDataWidthConverter_Batch_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="120" halign="4" type="string"/>
+        <tablecell class="" contents="120" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="134" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_2_StreamingDataWidthConverter_Batch_1" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2_StreamingDataflowPartition_2_StreamingDataWidthConverter_Batch_1_0" halign="4" type="string"/>
+        <tablecell class="" contents="305" halign="4" type="string"/>
+        <tablecell class="" contents="305" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="505" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_2_StreamingFIFO_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2_StreamingDataflowPartition_2_StreamingFIFO_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="65" halign="4" type="string"/>
+        <tablecell class="" contents="44" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="31" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_2_StreamingFIFO_1" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_2_0_StreamingDataflowPartition_2_StreamingFIFO_1_imp_I8TN27" halign="4" type="string"/>
+        <tablecell class="" contents="27" halign="4" type="string"/>
+        <tablecell class="" contents="27" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="61" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_3" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0" halign="4" type="string"/>
+        <tablecell class="" contents="1913" halign="4" type="string"/>
+        <tablecell class="" contents="1836" halign="4" type="string"/>
+        <tablecell class="" contents="56" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="2188" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3" halign="4" type="string"/>
+        <tablecell class="" contents="1913" halign="4" type="string"/>
+        <tablecell class="" contents="1836" halign="4" type="string"/>
+        <tablecell class="" contents="56" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="2188" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_3_ConvolutionInputGenerator_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3_StreamingDataflowPartition_3_ConvolutionInputGenerator_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="545" halign="4" type="string"/>
+        <tablecell class="" contents="489" halign="4" type="string"/>
+        <tablecell class="" contents="56" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="381" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_3_MatrixVectorActivation_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3_MatrixVectorActivation_0_imp_SLDS13" halign="4" type="string"/>
+        <tablecell class="" contents="955" halign="4" type="string"/>
+        <tablecell class="" contents="955" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1333" halign="4" type="string"/>
+        <tablecell class="" contents="4" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_3_StreamingDataWidthConverter_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3_StreamingDataflowPartition_3_StreamingDataWidthConverter_Batch_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="109" halign="4" type="string"/>
+        <tablecell class="" contents="109" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="141" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_3_StreamingDataWidthConverter_Batch_1" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3_StreamingDataflowPartition_3_StreamingDataWidthConverter_Batch_1_0" halign="4" type="string"/>
+        <tablecell class="" contents="113" halign="4" type="string"/>
+        <tablecell class="" contents="113" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="95" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_3_StreamingFIFO_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3_StreamingDataflowPartition_3_StreamingFIFO_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="65" halign="4" type="string"/>
+        <tablecell class="" contents="44" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="31" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_3_StreamingMaxPool_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_3_0_StreamingDataflowPartition_3_StreamingDataflowPartition_3_StreamingMaxPool_Batch_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="128" halign="4" type="string"/>
+        <tablecell class="" contents="128" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="207" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_4" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_4_0" halign="4" type="string"/>
+        <tablecell class="" contents="186" halign="4" type="string"/>
+        <tablecell class="" contents="170" halign="4" type="string"/>
+        <tablecell class="" contents="16" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="319" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_4_0_StreamingDataflowPartition_4" halign="4" type="string"/>
+        <tablecell class="" contents="186" halign="4" type="string"/>
+        <tablecell class="" contents="170" halign="4" type="string"/>
+        <tablecell class="" contents="16" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="319" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_4_MatrixVectorActivation_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_4_0_StreamingDataflowPartition_4_MatrixVectorActivation_0_imp_1Y7THMU" halign="4" type="string"/>
+        <tablecell class="" contents="186" halign="4" type="string"/>
+        <tablecell class="" contents="170" halign="4" type="string"/>
+        <tablecell class="" contents="16" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="319" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_5" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_5_0" halign="4" type="string"/>
+        <tablecell class="" contents="399" halign="4" type="string"/>
+        <tablecell class="" contents="387" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="369" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_5_0_StreamingDataflowPartition_5" halign="4" type="string"/>
+        <tablecell class="" contents="399" halign="4" type="string"/>
+        <tablecell class="" contents="387" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="369" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_5_MatrixVectorActivation_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_5_0_StreamingDataflowPartition_5_MatrixVectorActivation_0_imp_12RFWDI" halign="4" type="string"/>
+        <tablecell class="" contents="294" halign="4" type="string"/>
+        <tablecell class="" contents="282" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="309" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_5_StreamingDataWidthConverter_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_5_0_StreamingDataflowPartition_5_StreamingDataflowPartition_5_StreamingDataWidthConverter_Batch_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="105" halign="4" type="string"/>
+        <tablecell class="" contents="105" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="60" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_6" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_6_0" halign="4" type="string"/>
+        <tablecell class="" contents="170" halign="4" type="string"/>
+        <tablecell class="" contents="158" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="274" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_6_0_StreamingDataflowPartition_6" halign="4" type="string"/>
+        <tablecell class="" contents="170" halign="4" type="string"/>
+        <tablecell class="" contents="158" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="274" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_6_MatrixVectorActivation_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_6_0_StreamingDataflowPartition_6_MatrixVectorActivation_0_imp_4J3KXY" halign="4" type="string"/>
+        <tablecell class="" contents="160" halign="4" type="string"/>
+        <tablecell class="" contents="148" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="244" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_6_StreamingDataWidthConverter_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_6_0_StreamingDataflowPartition_6_StreamingDataWidthConverter_Batch_0_imp_126XNVQ" halign="4" type="string"/>
+        <tablecell class="" contents="10" halign="4" type="string"/>
+        <tablecell class="" contents="10" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="30" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    StreamingDataflowPartition_7" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_7_0" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="46" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_7_0_StreamingDataflowPartition_7" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="46" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_7_LabelSelect_Batch_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_StreamingDataflowPartition_7_0_StreamingDataflowPartition_7_StreamingDataflowPartition_7_LabelSelect_Batch_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="46" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    axi_interconnect_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_axi_interconnect_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="685" halign="4" type="string"/>
+        <tablecell class="" contents="624" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="61" halign="4" type="string"/>
+        <tablecell class="" contents="684" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      s00_couplers" halign="1" type="string"/>
+        <tablecell class="" contents="s00_couplers_imp_1NKMOJO" halign="4" type="string"/>
+        <tablecell class="" contents="407" halign="4" type="string"/>
+        <tablecell class="" contents="346" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="61" halign="4" type="string"/>
+        <tablecell class="" contents="550" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        auto_pc" halign="1" type="string"/>
+        <tablecell class="" contents="top_auto_pc_0" halign="4" type="string"/>
+        <tablecell class="" contents="407" halign="4" type="string"/>
+        <tablecell class="" contents="346" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="61" halign="4" type="string"/>
+        <tablecell class="" contents="550" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      xbar" halign="1" type="string"/>
+        <tablecell class="" contents="top_xbar_0" halign="4" type="string"/>
+        <tablecell class="" contents="278" halign="4" type="string"/>
+        <tablecell class="" contents="278" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="134" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_xbar_0_axi_crossbar_v2_1_28_axi_crossbar" halign="4" type="string"/>
+        <tablecell class="" contents="278" halign="4" type="string"/>
+        <tablecell class="" contents="278" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="134" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    idma0" halign="1" type="string"/>
+        <tablecell class="" contents="top_idma0_0" halign="4" type="string"/>
+        <tablecell class="" contents="1040" halign="4" type="string"/>
+        <tablecell class="" contents="1002" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="38" halign="4" type="string"/>
+        <tablecell class="" contents="1554" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      (idma0)" halign="1" type="string"/>
+        <tablecell class="" contents="top_idma0_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_idma0_0_StreamingDataflowPartition_0" halign="4" type="string"/>
+        <tablecell class="" contents="1040" halign="4" type="string"/>
+        <tablecell class="" contents="1002" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="38" halign="4" type="string"/>
+        <tablecell class="" contents="1554" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_0_IODMA_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_idma0_0_StreamingDataflowPartition_0_StreamingDataflowPartition_0_IODMA_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="1040" halign="4" type="string"/>
+        <tablecell class="" contents="1002" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="38" halign="4" type="string"/>
+        <tablecell class="" contents="1554" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    odma0" halign="1" type="string"/>
+        <tablecell class="" contents="top_odma0_0" halign="4" type="string"/>
+        <tablecell class="" contents="942" halign="4" type="string"/>
+        <tablecell class="" contents="830" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="1445" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      (odma0)" halign="1" type="string"/>
+        <tablecell class="" contents="top_odma0_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_odma0_0_StreamingDataflowPartition_8" halign="4" type="string"/>
+        <tablecell class="" contents="942" halign="4" type="string"/>
+        <tablecell class="" contents="830" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="1445" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        StreamingDataflowPartition_8_IODMA_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_odma0_0_StreamingDataflowPartition_8_StreamingDataflowPartition_8_IODMA_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="942" halign="4" type="string"/>
+        <tablecell class="" contents="830" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="112" halign="4" type="string"/>
+        <tablecell class="" contents="1445" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    rst_zynq_ps_100M" halign="1" type="string"/>
+        <tablecell class="" contents="top_rst_zynq_ps_100M_0" halign="4" type="string"/>
+        <tablecell class="" contents="17" halign="4" type="string"/>
+        <tablecell class="" contents="16" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="33" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      U0" halign="1" type="string"/>
+        <tablecell class="" contents="top_rst_zynq_ps_100M_0_proc_sys_reset" halign="4" type="string"/>
+        <tablecell class="" contents="17" halign="4" type="string"/>
+        <tablecell class="" contents="16" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="33" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        (U0)" halign="1" type="string"/>
+        <tablecell class="" contents="top_rst_zynq_ps_100M_0_proc_sys_reset" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        EXT_LPF" halign="1" type="string"/>
+        <tablecell class="" contents="top_rst_zynq_ps_100M_0_lpf" halign="4" type="string"/>
+        <tablecell class="" contents="5" halign="4" type="string"/>
+        <tablecell class="" contents="4" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="17" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        SEQ" halign="1" type="string"/>
+        <tablecell class="" contents="top_rst_zynq_ps_100M_0_sequence_psr" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="15" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    smartconnect_0" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="3816" halign="4" type="string"/>
+        <tablecell class="" contents="3062" halign="4" type="string"/>
+        <tablecell class="" contents="630" halign="4" type="string"/>
+        <tablecell class="" contents="124" halign="4" type="string"/>
+        <tablecell class="" contents="4629" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      (smartconnect_0)" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_bd_acc6" halign="4" type="string"/>
+        <tablecell class="" contents="3816" halign="4" type="string"/>
+        <tablecell class="" contents="3062" halign="4" type="string"/>
+        <tablecell class="" contents="630" halign="4" type="string"/>
+        <tablecell class="" contents="124" halign="4" type="string"/>
+        <tablecell class="" contents="4629" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        clk_map" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_clk_map_imp_RP3AMW" halign="4" type="string"/>
+        <tablecell class="" contents="13" halign="4" type="string"/>
+        <tablecell class="" contents="12" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="22" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        m00_exit_pipeline" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_m00_exit_pipeline_imp_1755AO3" halign="4" type="string"/>
+        <tablecell class="" contents="625" halign="4" type="string"/>
+        <tablecell class="" contents="604" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="949" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        m00_nodes" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_m00_nodes_imp_1KEITF3" halign="4" type="string"/>
+        <tablecell class="" contents="652" halign="4" type="string"/>
+        <tablecell class="" contents="416" halign="4" type="string"/>
+        <tablecell class="" contents="234" halign="4" type="string"/>
+        <tablecell class="" contents="2" halign="4" type="string"/>
+        <tablecell class="" contents="600" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        m00_sc2axi" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_bd_acc6_m00s2a_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        s00_axi2sc" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_bd_acc6_s00a2s_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        s00_entry_pipeline" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_s00_entry_pipeline_imp_6R12KG" halign="4" type="string"/>
+        <tablecell class="" contents="620" halign="4" type="string"/>
+        <tablecell class="" contents="572" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="48" halign="4" type="string"/>
+        <tablecell class="" contents="755" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        s00_nodes" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_s00_nodes_imp_3V4TWA" halign="4" type="string"/>
+        <tablecell class="" contents="606" halign="4" type="string"/>
+        <tablecell class="" contents="386" halign="4" type="string"/>
+        <tablecell class="" contents="220" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="585" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        s01_axi2sc" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_bd_acc6_s01a2s_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        s01_entry_pipeline" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_s01_entry_pipeline_imp_10E29W4" halign="4" type="string"/>
+        <tablecell class="" contents="651" halign="4" type="string"/>
+        <tablecell class="" contents="599" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="52" halign="4" type="string"/>
+        <tablecell class="" contents="813" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        s01_nodes" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_s01_nodes_imp_1477AY4" halign="4" type="string"/>
+        <tablecell class="" contents="534" halign="4" type="string"/>
+        <tablecell class="" contents="358" halign="4" type="string"/>
+        <tablecell class="" contents="176" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="592" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        switchboards" halign="1" type="string"/>
+        <tablecell class="" contents="top_smartconnect_0_0_switchboards_imp_SBVKUM" halign="4" type="string"/>
+        <tablecell class="" contents="123" halign="4" type="string"/>
+        <tablecell class="" contents="123" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="313" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    zynq_ps" halign="1" type="string"/>
+        <tablecell class="" contents="top_zynq_ps_0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      inst" halign="1" type="string"/>
+        <tablecell class="" contents="top_zynq_ps_0_processing_system7_v5_5_processing_system7" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+    </table>
+  </section>
+
+</RptDoc>

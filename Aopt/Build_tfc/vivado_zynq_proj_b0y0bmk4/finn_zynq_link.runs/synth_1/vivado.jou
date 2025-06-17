@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Jan 17 22:23:30 2025
+# Process ID: 8270
+# Current directory: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/synth_1
+# Command line: vivado -log top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_wrapper.tcl
+# Log file: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/synth_1/top_wrapper.vds
+# Journal file: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/synth_1/vivado.jou
+# Running On: shakeelarkam00-Latitude-7520, OS: Linux, CPU Frequency: 1804.800 MHz, CPU Physical cores: 6, Host memory: 11503 MB
+#-----------------------------------------------------------
+source top_wrapper.tcl -notrace

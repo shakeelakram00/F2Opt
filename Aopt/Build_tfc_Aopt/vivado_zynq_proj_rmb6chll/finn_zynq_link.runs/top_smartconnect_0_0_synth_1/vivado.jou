@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Jan 17 23:05:15 2025
+# Process ID: 17543
+# Current directory: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/finn_zynq_link.runs/top_smartconnect_0_0_synth_1
+# Command line: vivado -log top_smartconnect_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_smartconnect_0_0.tcl
+# Log file: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/finn_zynq_link.runs/top_smartconnect_0_0_synth_1/top_smartconnect_0_0.vds
+# Journal file: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/finn_zynq_link.runs/top_smartconnect_0_0_synth_1/vivado.jou
+# Running On: shakeelarkam00-Latitude-7520, OS: Linux, CPU Frequency: 1804.800 MHz, CPU Physical cores: 6, Host memory: 11503 MB
+#-----------------------------------------------------------
+source top_smartconnect_0_0.tcl -notrace

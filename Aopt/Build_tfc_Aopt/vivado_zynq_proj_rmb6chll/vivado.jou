@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Jan 17 22:59:13 2025
+# Process ID: 16237
+# Current directory: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll
+# Command line: vivado -mode batch -source /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/ip_config.tcl
+# Log file: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/vivado.log
+# Journal file: /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/vivado.jou
+# Running On: shakeelarkam00-Latitude-7520, OS: Linux, CPU Frequency: 1804.800 MHz, CPU Physical cores: 6, Host memory: 11503 MB
+#-----------------------------------------------------------
+source /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_rmb6chll/ip_config.tcl

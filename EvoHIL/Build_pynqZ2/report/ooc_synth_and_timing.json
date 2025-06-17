@@ -1,0 +1,19 @@
+{
+  "vivado_proj_folder": "/tmp/finn_dev_shakeelarkam00/synth_out_of_context_kr7wd23d/results_finn_design_wrapper",
+  "LUT": 7205.0,
+  "LUTRAM": 341.0,
+  "FF": 6731.0,
+  "DSP": 0.0,
+  "BRAM": 11.0,
+  "BRAM_18K": 5.0,
+  "BRAM_36K": 9.0,
+  "URAM": 0.0,
+  "Carry": 538.0,
+  "WNS": 0.134,
+  "Delay": 0.134,
+  "vivado_version": 0,
+  "vivado_build_no": 3788238.0,
+  "": 0,
+  "fmax_mhz": 101.35819987837016,
+  "estimated_throughput_fps": 8379.480810050442
+}

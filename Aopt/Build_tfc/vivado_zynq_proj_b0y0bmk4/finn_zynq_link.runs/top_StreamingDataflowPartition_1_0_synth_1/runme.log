@@ -1,0 +1,1014 @@
+
+*** Running vivado
+    with args -log top_StreamingDataflowPartition_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_StreamingDataflowPartition_1_0.tcl
+
+
+****** Vivado v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source top_StreamingDataflowPartition_1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingDataflowPartition_0_IODMA_0_d6vjwrd1/project_StreamingDataflowPartition_0_IODMA_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/vivado_stitch_proj_9v5o3x0_/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingFIFO_0_60rf4x5_/project_StreamingFIFO_0/sol1/impl/verilog'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_Thresholding_Batch_0_rte296j3/project_Thresholding_Batch_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingDataWidthConverter_Batch_0_xl28r8a1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingFIFO_2_cc8_0d4q/project_StreamingFIFO_2/sol1/impl/verilog'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_0_qagh72hy/project_MatrixVectorActivation_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingDataWidthConverter_Batch_1_nypyf2s2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_9nvtyt7p/project_MatrixVectorActivation_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingDataWidthConverter_Batch_2_u4wiuyem/project_StreamingDataWidthConverter_Batch_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2_aat5dj07/project_MatrixVectorActivation_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingDataWidthConverter_Batch_3__w8dwgxh/project_StreamingDataWidthConverter_Batch_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingFIFO_8_ghouq09j/project_StreamingFIFO_8/sol1/impl/verilog'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_3_up6i7eps/project_MatrixVectorActivation_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/vivado_stitch_proj_dhhlfr35/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/opt/dpfl/finn/finn-rtllib/memstream'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_StreamingDataflowPartition_2_IODMA_0_87nb5gk8/project_StreamingDataflowPartition_2_IODMA_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_shakeelarkam00/vivado_stitch_proj_w0a094k1/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: top_StreamingDataflowPartition_1_0
+Command: synth_design -top top_StreamingDataflowPartition_1_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7428
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'config_ce_r', assumed default net type 'wire' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:176]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2651.500 ; gain = 379.734 ; free physical = 3240 ; free virtual = 7802
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2085.350; parent = 1813.417; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3675.461; parent = 2667.379; children = 1008.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_StreamingDataflowPartition_1_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/synth/top_StreamingDataflowPartition_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:12]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_0_imp_12DA6W7' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:191]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0_mux_496_16_1_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_mux_496_16_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0_mux_496_16_1_1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_mux_496_16_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0_regslice_both' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0_regslice_both' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0_regslice_both__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0_regslice_both__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_0_regslice_both__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0_regslice_both__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/hdl/verilog/MatrixVectorActivation_0.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'memstream' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6157] synthesizing module 'memstream_singleblock' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ramb18_sdp' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_0_qagh72hy/memblock_synth_0.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'ramb18_sdp' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'memstream_singleblock' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'axi4lite_if' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'axi4lite_if' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'ip_addr' does not match port width (13) of module 'axi4lite_if' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:321]
+INFO: [Synth 8-6155] done synthesizing module 'memstream' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0.v:53]
+WARNING: [Synth 8-7071] port 'awready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'wready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'bvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'bresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'arready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'rvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'rresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7071] port 'rdata' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0' has 24 connections declared, but only 16 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:241]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_0_imp_12DA6W7' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:191]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_1_imp_1SQGJ7N' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:260]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_9nvtyt7p/project_MatrixVectorActivation_1/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_9nvtyt7p/project_MatrixVectorActivation_1/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_9nvtyt7p/project_MatrixVectorActivation_1/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_9nvtyt7p/project_MatrixVectorActivation_1/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_mux_42_16_1_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_mux_42_16_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_mux_42_16_1_1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_mux_42_16_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_regslice_both' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_regslice_both' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_regslice_both__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_regslice_both__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_1_regslice_both__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1_regslice_both__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'memstream__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6157] synthesizing module 'memstream_singleblock__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ramb18_sdp__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_9nvtyt7p/memblock_synth_0.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'ramb18_sdp__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'memstream_singleblock__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'axi4lite_if__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'axi4lite_if__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'ip_addr' does not match port width (9) of module 'axi4lite_if__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:321]
+INFO: [Synth 8-6155] done synthesizing module 'memstream__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0.v:53]
+WARNING: [Synth 8-7071] port 'awready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'wready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'bvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'bresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'arready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'rvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'rresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7071] port 'rdata' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0' has 24 connections declared, but only 16 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:310]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_1_imp_1SQGJ7N' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:260]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_2_imp_L5XICV' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:329]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2_aat5dj07/project_MatrixVectorActivation_2/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2_aat5dj07/project_MatrixVectorActivation_2/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_1_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2_aat5dj07/project_MatrixVectorActivation_2/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_2_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2_aat5dj07/project_MatrixVectorActivation_2/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_3_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_mux_42_16_1_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_mux_42_16_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_mux_42_16_1_1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_mux_42_16_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_flow_control_loop_pipe_sequential_init' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_flow_control_loop_pipe_sequential_init' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_regslice_both' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_regslice_both' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_regslice_both__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_regslice_both__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_2_regslice_both__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2_regslice_both__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_2' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'memstream__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6157] synthesizing module 'memstream_singleblock__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ramb18_sdp__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2_aat5dj07/memblock_synth_0.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'ramb18_sdp__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'memstream_singleblock__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+WARNING: [Synth 8-689] width (32) of port connection 'ip_addr' does not match port width (9) of module 'axi4lite_if__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:321]
+INFO: [Synth 8-6155] done synthesizing module 'memstream__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0.v:53]
+WARNING: [Synth 8-7071] port 'awready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'wready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'bvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'bresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'arready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'rvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'rresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7071] port 'rdata' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0' has 24 connections declared, but only 16 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:379]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_2_imp_L5XICV' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:329]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_3_imp_D3ZRIJ' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:398]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_3' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_3_mux_83_8_1_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_mux_83_8_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_3_mux_83_8_1_1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_mux_83_8_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_3_flow_control_loop_pipe_sequential_init' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_3_flow_control_loop_pipe_sequential_init' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch.v:10]
+INFO: [Synth 8-6157] synthesizing module 'MatrixVectorActivation_3_regslice_both' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_3_regslice_both' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MatrixVectorActivation_3' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'memstream__parameterized2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6157] synthesizing module 'memstream_singleblock__parameterized2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ramb18_sdp__parameterized2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_3_up6i7eps/memblock_synth_0.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'ramb18_sdp__parameterized2' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/ramb18_sdp.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'memstream_singleblock__parameterized2' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'axi4lite_if__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'axi4lite_if__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'ip_addr' does not match port width (9) of module 'axi4lite_if__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:321]
+INFO: [Synth 8-6155] done synthesizing module 'memstream__parameterized2' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0.v:53]
+WARNING: [Synth 8-7071] port 'awready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'wready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'bvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'bresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'arready' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'rvalid' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'rresp' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7071] port 'rdata' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' is unconnected for instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0' has 24 connections declared, but only 16 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:448]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_MatrixVectorActivation_3_imp_D3ZRIJ' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:398]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_0_imp_9WR3XX' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:467]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_dwc_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_0/synth/StreamingDataflowPartition_1_dwc_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_upsizer' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:436]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_upsizer' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:436]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_dwc_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_0/synth/StreamingDataflowPartition_1_dwc_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_0_imp_9WR3XX' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:467]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_1_imp_HY6IKX' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:513]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_dwc_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/synth/StreamingDataflowPartition_1_dwc_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_downsizer' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_downsizer' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_dwc_1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/synth/StreamingDataflowPartition_1_dwc_1.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_1_imp_HY6IKX' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:513]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2.v:10]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_2_flow_control_loop_pipe_no_ap_cont' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_flow_control_loop_pipe_no_ap_cont.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_2_flow_control_loop_pipe_no_ap_cont' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_flow_control_loop_pipe_no_ap_cont.v:9]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_2_regslice_both' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_2_regslice_both' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_2_regslice_both__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_2_regslice_both__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_2' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_3' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3.v:10]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_3_flow_control_loop_pipe_no_ap_cont' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3_flow_control_loop_pipe_no_ap_cont.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_3_flow_control_loop_pipe_no_ap_cont' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3_flow_control_loop_pipe_no_ap_cont.v:9]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataWidthConverter_Batch_3_regslice_both' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_3_regslice_both' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataWidthConverter_Batch_3' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingFIFO_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0/StreamingFIFO_0.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Q_srl' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/Q_srl.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'Q_srl' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/Q_srl.v:72]
+WARNING: [Synth 8-689] width (6) of port connection 'count' does not match port width (7) of module 'Q_srl' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0/StreamingFIFO_0.v:34]
+WARNING: [Synth 8-689] width (6) of port connection 'maxcount' does not match port width (7) of module 'Q_srl' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0/StreamingFIFO_0.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingFIFO_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0/StreamingFIFO_0.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0.v:53]
+WARNING: [Synth 8-7071] port 'count' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0' is unconnected for instance 'StreamingDataflowPartition_1_StreamingFIFO_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:153]
+WARNING: [Synth 8-7071] port 'maxcount' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0' is unconnected for instance 'StreamingDataflowPartition_1_StreamingFIFO_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:153]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_StreamingFIFO_0' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_0_0' has 10 connections declared, but only 8 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:153]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingFIFO_2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0/StreamingFIFO_2.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Q_srl__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/Q_srl.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'Q_srl__parameterized0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/Q_srl.v:72]
+WARNING: [Synth 8-689] width (5) of port connection 'count' does not match port width (6) of module 'Q_srl__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0/StreamingFIFO_2.v:34]
+WARNING: [Synth 8-689] width (5) of port connection 'maxcount' does not match port width (6) of module 'Q_srl__parameterized0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0/StreamingFIFO_2.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingFIFO_2' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0/StreamingFIFO_2.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0.v:53]
+WARNING: [Synth 8-7071] port 'count' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0' is unconnected for instance 'StreamingDataflowPartition_1_StreamingFIFO_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:162]
+WARNING: [Synth 8-7071] port 'maxcount' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0' is unconnected for instance 'StreamingDataflowPartition_1_StreamingFIFO_1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:162]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_StreamingFIFO_1' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_1_0' has 10 connections declared, but only 8 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:162]
+INFO: [Synth 8-6157] synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingFIFO_8' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/StreamingFIFO_8.v:2]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'Q_srl__parameterized1' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/Q_srl.v:72]
+WARNING: [Synth 8-689] width (5) of port connection 'count' does not match port width (6) of module 'Q_srl__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/StreamingFIFO_8.v:34]
+WARNING: [Synth 8-689] width (5) of port connection 'maxcount' does not match port width (6) of module 'Q_srl__parameterized1' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/StreamingFIFO_8.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingFIFO_8' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/StreamingFIFO_8.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0/synth/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0.v:53]
+WARNING: [Synth 8-7071] port 'count' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0' is unconnected for instance 'StreamingDataflowPartition_1_StreamingFIFO_2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:171]
+WARNING: [Synth 8-7071] port 'maxcount' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0' is unconnected for instance 'StreamingDataflowPartition_1_StreamingFIFO_2' [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:171]
+WARNING: [Synth 8-7023] instance 'StreamingDataflowPartition_1_StreamingFIFO_2' of module 'StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingFIFO_2_0' has 10 connections declared, but only 8 given [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ipshared/e0b9/src/StreamingDataflowPartition_1.v:171]
+INFO: [Synth 8-3876] $readmem data file '/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_Thresholding_Batch_0_rte296j3/project_Thresholding_Batch_0/sol1/impl/ip/hdl/verilog/Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R.dat' is read successfully [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_Thresholding_Batch_0_0/hdl/verilog/Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R' (0#1) [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_Thresholding_Batch_0_0/hdl/verilog/Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R.v:7]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3848] Net m_axis_1_tdata in module/entity memstream_singleblock does not have driver. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:77]
+WARNING: [Synth 8-6014] Unused sequential element wready_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:135]
+WARNING: [Synth 8-6014] Unused sequential element internal_wack_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:154]
+WARNING: [Synth 8-3848] Net m_axis_1_tdata in module/entity memstream_singleblock__parameterized0 does not have driver. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:77]
+WARNING: [Synth 8-6014] Unused sequential element wready_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:135]
+WARNING: [Synth 8-6014] Unused sequential element internal_wack_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:154]
+WARNING: [Synth 8-3848] Net m_axis_1_tdata in module/entity memstream_singleblock__parameterized1 does not have driver. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:77]
+WARNING: [Synth 8-3848] Net m_axis_1_tdata in module/entity memstream_singleblock__parameterized2 does not have driver. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/memstream_singleblock.v:77]
+WARNING: [Synth 8-6014] Unused sequential element wready_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:135]
+WARNING: [Synth 8-6014] Unused sequential element internal_wack_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:154]
+WARNING: [Synth 8-3936] Found unconnected internal register 'no_fold.ip_wdata_wide_reg' and it is trimmed from '32' to '8' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:164]
+WARNING: [Synth 8-3936] Found unconnected internal register 'internal_wdata_reg' and it is trimmed from '32' to '8' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:129]
+WARNING: [Synth 8-6014] Unused sequential element r0_is_null_r_reg was removed.  [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_dwc_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:311]
+WARNING: [Synth 8-7129] Port reset in module Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_loop_exit_done in module StreamingDataWidthConverter_Batch_3_flow_control_loop_pipe_no_ap_cont is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ap_loop_exit_done in module StreamingDataWidthConverter_Batch_2_flow_control_loop_pipe_no_ap_cont is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TLAST in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[3] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[2] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TLAST in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[3] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[2] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[3] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[2] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[1] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TLAST in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[2] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[1] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[0] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[31] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[30] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[29] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[28] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[27] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[26] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[25] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[24] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[23] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[22] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[21] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[20] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[19] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[18] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[17] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[16] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[15] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[14] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[13] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[12] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[11] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[10] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[9] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdata[8] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[3] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[2] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[1] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[0] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[2] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[1] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[0] in module axi4lite_if__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ena in module ramb18_sdp__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[31] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[30] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[29] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[28] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[27] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[26] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[25] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[24] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[23] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[22] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[21] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[20] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_1_tdata[19] in module memstream_singleblock__parameterized2 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2807.344 ; gain = 535.578 ; free physical = 3262 ; free virtual = 7824
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2085.350; parent = 1813.417; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3815.430; parent = 2807.348; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2825.156 ; gain = 553.391 ; free physical = 3262 ; free virtual = 7824
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2085.350; parent = 1813.417; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3833.242; parent = 2825.160; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2825.156 ; gain = 553.391 ; free physical = 3257 ; free virtual = 7820
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2085.350; parent = 1813.417; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3833.242; parent = 2825.160; children = 1008.082
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2825.156 ; gain = 0.000 ; free physical = 3253 ; free virtual = 7815
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/top_StreamingDataflowPartition_1_0_ooc.xdc] for cell 'inst'
+WARNING: [Constraints 18-619] A clock with name 'ap_clk' already exists, overwriting the previous clock with the same name. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/top_StreamingDataflowPartition_1_0_ooc.xdc:55]
+Finished Parsing XDC File [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/top_StreamingDataflowPartition_1_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/top_StreamingDataflowPartition_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/top_StreamingDataflowPartition_1_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2958.898 ; gain = 0.000 ; free physical = 3142 ; free virtual = 7708
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2958.898 ; gain = 0.000 ; free physical = 3137 ; free virtual = 7703
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3245 ; free virtual = 7813
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2101.398; parent = 1833.884; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3245 ; free virtual = 7813
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2101.738; parent = 1834.372; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/top_StreamingDataflowPartition_1_0_synth_1/dont_touch.xdc, line 71).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_3/StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_3/StreamingDataflowPartition_1_MatrixVectorActivation_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingFIFO_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_2/StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_2/StreamingDataflowPartition_1_MatrixVectorActivation_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_1/StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_1/StreamingDataflowPartition_1_MatrixVectorActivation_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_1/dwc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_0/StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_MatrixVectorActivation_0/StreamingDataflowPartition_1_MatrixVectorActivation_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingFIFO_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_0/dwc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_Thresholding_Batch_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/StreamingDataflowPartition_1_StreamingFIFO_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3245 ; free virtual = 7813
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2102.250; parent = 1834.884; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter2_fsm_reg' in module 'MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi4lite_if'
+WARNING: [Synth 8-3936] Found unconnected internal register 'nf_2_reg_2889_reg' and it is trimmed from '32' to '4' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_0/hdl/verilog/MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch.v:777]
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter2_fsm_reg' in module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi4lite_if__parameterized0'
+WARNING: [Synth 8-3936] Found unconnected internal register 'nf_2_reg_2889_reg' and it is trimmed from '32' to '4' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_0/hdl/verilog/MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch.v:777]
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter2_fsm_reg' in module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-3936] Found unconnected internal register 'inElem_1_reg_145_reg' and it is trimmed from '8' to '6' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch.v:269]
+WARNING: [Synth 8-3936] Found unconnected internal register 'W_packed_V_reg_784_reg' and it is trimmed from '8' to '6' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_0/hdl/verilog/MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch.v:301]
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi4lite_if__parameterized1'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'StreamingDataWidthConverter_Batch_2'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter2_fsm_reg' in module 'StreamingDataWidthConverter_Batch_2'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'StreamingDataWidthConverter_Batch_3'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter2_fsm_reg' in module 'StreamingDataWidthConverter_Batch_3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Q_srl'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Q_srl__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Q_srl__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter1_fsm_reg' in module 'Thresholding_Batch_0_Thresholding_Batch'
+INFO: [Synth 8-802] inferred FSM for state register 'ap_CS_iter2_fsm_reg' in module 'Thresholding_Batch_0_Thresholding_Batch'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter2_fsm_state0 |                               01 |                               01
+  ap_ST_iter2_fsm_state3 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter2_fsm_reg' in module 'MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                               00
+             STATE_WRITE |                               01 |                               10
+              STATE_READ |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi4lite_if'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter2_fsm_state0 |                               01 |                               01
+  ap_ST_iter2_fsm_state3 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter2_fsm_reg' in module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                               00
+             STATE_WRITE |                               01 |                               10
+              STATE_READ |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi4lite_if__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter2_fsm_state0 |                               01 |                               01
+  ap_ST_iter2_fsm_state3 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter2_fsm_reg' in module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_2_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'MatrixVectorActivation_3_Matrix_Vector_Activate_Stream_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                               00
+             STATE_WRITE |                               01 |                               10
+              STATE_READ |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi4lite_if__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter2_fsm_state0 |                               01 |                               01
+  ap_ST_iter2_fsm_state3 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter2_fsm_reg' in module 'StreamingDataWidthConverter_Batch_2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'StreamingDataWidthConverter_Batch_2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter2_fsm_state0 |                               01 |                               01
+  ap_ST_iter2_fsm_state3 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter2_fsm_reg' in module 'StreamingDataWidthConverter_Batch_3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'StreamingDataWidthConverter_Batch_3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             state_empty |                               00 |                               00
+               state_one |                               01 |                               01
+              state_more |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Q_srl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             state_empty |                               00 |                               00
+               state_one |                               01 |                               01
+              state_more |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Q_srl__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             state_empty |                               00 |                               00
+               state_one |                               01 |                               01
+              state_more |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Q_srl__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter1_fsm_state0 |                               01 |                               01
+  ap_ST_iter1_fsm_state2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter1_fsm_reg' in module 'Thresholding_Batch_0_Thresholding_Batch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+  ap_ST_iter2_fsm_state0 |                               01 |                               01
+  ap_ST_iter2_fsm_state3 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'ap_CS_iter2_fsm_reg' in module 'Thresholding_Batch_0_Thresholding_Batch'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3229 ; free virtual = 7798
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2118.469; parent = 1851.107; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_1_U'
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_4_U'
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_5_U'
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_6_U'
+INFO: [Synth 8-223] decloning instance 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_0_U' (Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R) to 'inst/StreamingDataflowPartition_1_Thresholding_Batch_0/inst/grp_Thresholding_Batch_fu_52/p_ZL7threshs_7_U'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 11    
+	   9 Input   11 Bit       Adders := 32    
+	   7 Input    8 Bit       Adders := 8     
+	   5 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 8     
+	   2 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 6     
+	   4 Input    3 Bit       Adders := 16    
+	   2 Input    2 Bit       Adders := 210   
+	   3 Input    2 Bit       Adders := 41    
+	   2 Input    1 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 648   
+	   2 Input      1 Bit         XORs := 48    
++---Registers : 
+	              512 Bit    Registers := 4     
+	               64 Bit    Registers := 11    
+	               32 Bit    Registers := 35    
+	               16 Bit    Registers := 67    
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 32    
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 58    
+	                7 Bit    Registers := 11    
+	                6 Bit    Registers := 12    
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 13    
+	                3 Bit    Registers := 18    
+	                2 Bit    Registers := 290   
+	                1 Bit    Registers := 215   
++---RAMs : 
+	              49K Bit	(98 X 512 bit)          RAMs := 1     
+	               4K Bit	(64 X 64 bit)          RAMs := 2     
+	              640 Bit	(80 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  512 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 3     
+	   3 Input   64 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 61    
+	   3 Input   16 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 32    
+	   2 Input    9 Bit        Muxes := 33    
+	   2 Input    8 Bit        Muxes := 27    
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 8     
+	  17 Input    7 Bit        Muxes := 3     
+	  17 Input    6 Bit        Muxes := 5     
+	   2 Input    6 Bit        Muxes := 6     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	   3 Input    5 Bit        Muxes := 2     
+	   6 Input    4 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 5     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 4     
+	   4 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 23    
+	   2 Input    2 Bit        Muxes := 73    
+	   4 Input    2 Bit        Muxes := 18    
+	   7 Input    2 Bit        Muxes := 6     
+	  15 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 143   
+	   3 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/config_if/ip_addr_reg' and it is trimmed from '13' to '7' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:153]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/config_if/ip_addr_reg' and it is trimmed from '9' to '6' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:153]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/config_if/ip_addr_reg' and it is trimmed from '9' to '6' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:153]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/config_if/ip_addr_reg' and it is trimmed from '9' to '7' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0/hdl/axilite_if.v:153]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/regslice_both_in0_V_U/B_V_data_1_payload_A_reg' and it is trimmed from '8' to '4' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_regslice_both.v:85]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/regslice_both_in0_V_U/B_V_data_1_payload_B_reg' and it is trimmed from '8' to '4' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_2_0/hdl/verilog/StreamingDataWidthConverter_Batch_2_regslice_both.v:91]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/regslice_both_in0_V_U/B_V_data_1_payload_A_reg' and it is trimmed from '8' to '4' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3_regslice_both.v:85]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/regslice_both_in0_V_U/B_V_data_1_payload_B_reg' and it is trimmed from '8' to '4' bits. [/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.gen/sources_1/bd/top/ip/top_StreamingDataflowPartition_1_0/src/StreamingDataflowPartition_1_StreamingDataflowPartition_1_StreamingDataWidthConverter_Batch_3_0/hdl/verilog/StreamingDataWidthConverter_Batch_3_regslice_both.v:91]
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[1]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[0]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[1]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[0]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[1]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[0]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[1]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0.
+INFO: [Synth 8-3332] Sequential element (inst/config_if/FSM_sequential_state_reg[0]) is unused and will be removed from module StreamingDataflowPartition_1_StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3192 ; free virtual = 7776
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2196.918; parent = 1930.154; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------------------------------------------------------------------------+------------+---------------+----------------+
+|Module Name                                                                      | RTL Object | Depth x Width | Implemented As | 
++---------------------------------------------------------------------------------+------------+---------------+----------------+
+|Thresholding_Batch_0_Thresholding_Batch_p_ZL7threshs_0_ROM_2P_LUTRAM_1R          | rom0       | 128x2         | LUT            | 
+|StreamingDataflowPartition_1_StreamingDataflowPartition_1_Thresholding_Batch_0_0 | p_0_out    | 128x2         | LUT            | 
++---------------------------------------------------------------------------------+------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                                                                              | RTL Object                                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_0/StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 98 x 512(READ_FIRST)   | W |   | 98 x 512(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_1/StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 64 x 64(READ_FIRST)    | W |   | 64 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_2/StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 64 x 64(READ_FIRST)    | W |   | 64 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_3/StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 80 x 8(READ_FIRST)     | W |   | 80 x 8(WRITE_FIRST)    |   | R | Port A and B     | 1      | 0      | 
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'ap_clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3079 ; free virtual = 7663
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2271.414; parent = 2006.188; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3043 ; free virtual = 7627
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2303.453; parent = 2038.227; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                                                                              | RTL Object                                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_0/StreamingDataflowPartition_1_MatrixVectorActivation_0_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 98 x 512(READ_FIRST)   | W |   | 98 x 512(WRITE_FIRST)  |   | R | Port A and B     | 1      | 7      | 
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_1/StreamingDataflowPartition_1_MatrixVectorActivation_1_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 64 x 64(READ_FIRST)    | W |   | 64 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_2/StreamingDataflowPartition_1_MatrixVectorActivation_2_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 64 x 64(READ_FIRST)    | W |   | 64 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|inst/\StreamingDataflowPartition_1_MatrixVectorActivation_3/StreamingDataflowPartition_1_MatrixVectorActivation_3_wstrm  | inst/singleblock.mem/use_ram.sdp.ram/mem_reg | 80 x 8(READ_FIRST)     | W |   | 80 x 8(WRITE_FIRST)    |   | R | Port A and B     | 1      | 0      | 
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.684; parent = 2052.457; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.684; parent = 2052.457; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.684; parent = 2052.457; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.855; parent = 2052.629; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.855; parent = 2052.629; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.855; parent = 2052.629; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.855; parent = 2052.629; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name    | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | srl_reg[47] | 64     | 64         | 0      | 128     | 64     | 0      | 0      | 
+|dsrl__1     | srl_reg[30] | 16     | 16         | 0      | 16      | 0      | 0      | 0      | 
+|dsrl__2     | srl_reg[30] | 8      | 8          | 0      | 8       | 0      | 0      | 0      | 
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   410|
+|2     |LUT1     |    69|
+|3     |LUT2     |   580|
+|4     |LUT3     |  1289|
+|5     |LUT4     |   503|
+|6     |LUT5     |   443|
+|7     |LUT6     |  1354|
+|8     |MUXF7    |   120|
+|9     |MUXF8    |    48|
+|10    |RAMB18E1 |     2|
+|12    |RAMB36E1 |     9|
+|21    |SRLC32E  |    56|
+|22    |FDRE     |  4466|
+|23    |FDSE     |     5|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3025 ; free virtual = 7608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2317.855; parent = 2052.629; children = 271.933
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3950.977; parent = 2942.895; children = 1008.082
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 94 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 2958.898 ; gain = 553.391 ; free physical = 3084 ; free virtual = 7668
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 2958.898 ; gain = 687.133 ; free physical = 3084 ; free virtual = 7668
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2958.898 ; gain = 0.000 ; free physical = 3181 ; free virtual = 7768
+INFO: [Netlist 29-17] Analyzing 589 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2958.898 ; gain = 0.000 ; free physical = 3132 ; free virtual = 7720
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ef7d2d12
+INFO: [Common 17-83] Releasing license: Synthesis
+323 Infos, 175 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 2958.898 ; gain = 1023.668 ; free physical = 3378 ; free virtual = 7966
+INFO: [Common 17-1381] The checkpoint '/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/top_StreamingDataflowPartition_1_0_synth_1/top_StreamingDataflowPartition_1_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP top_StreamingDataflowPartition_1_0, cache-ID = 091fde9840a95fe9
+INFO: [Coretcl 2-1174] Renamed 91 cell refs.
+INFO: [Common 17-1381] The checkpoint '/tmp/finn_dev_shakeelarkam00/vivado_zynq_proj_b0y0bmk4/finn_zynq_link.runs/top_StreamingDataflowPartition_1_0_synth_1/top_StreamingDataflowPartition_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_StreamingDataflowPartition_1_0_utilization_synth.rpt -pb top_StreamingDataflowPartition_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 17 22:19:23 2025...

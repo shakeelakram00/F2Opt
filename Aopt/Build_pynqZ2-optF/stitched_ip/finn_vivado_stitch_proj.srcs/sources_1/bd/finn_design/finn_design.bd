@@ -1,0 +1,2809 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x27E7F218A6EE4E04",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../finn_vivado_stitch_proj.gen/sources_1/bd/finn_design",
+      "name": "finn_design",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "StreamingFIFO_0": "",
+      "Thresholding_Batch_0": "",
+      "StreamingFIFO_1": {
+        "fifo": ""
+      },
+      "ConvolutionInputGenerator_0": "",
+      "StreamingDataWidthConverter_Batch_0": {
+        "dwc": ""
+      },
+      "StreamingFIFO_3": "",
+      "MatrixVectorActivation_0": {
+        "MatrixVectorActivation_0": "",
+        "MatrixVectorActivation_0_wstrm": ""
+      },
+      "StreamingDataWidthConverter_Batch_1": "",
+      "StreamingFIFO_5": "",
+      "ConvolutionInputGenerator_1": "",
+      "StreamingFIFO_6": {
+        "fifo": ""
+      },
+      "StreamingDataWidthConverter_Batch_2": "",
+      "MatrixVectorActivation_1": {
+        "MatrixVectorActivation_1": "",
+        "MatrixVectorActivation_1_wstrm": ""
+      },
+      "StreamingMaxPool_Batch_0": "",
+      "StreamingFIFO_9": "",
+      "StreamingDataWidthConverter_Batch_3": "",
+      "ConvolutionInputGenerator_2": "",
+      "StreamingDataWidthConverter_Batch_4": "",
+      "MatrixVectorActivation_2": {
+        "MatrixVectorActivation_2": "",
+        "MatrixVectorActivation_2_wstrm": ""
+      },
+      "MatrixVectorActivation_3": {
+        "MatrixVectorActivation_3": "",
+        "MatrixVectorActivation_3_wstrm": ""
+      },
+      "StreamingDataWidthConverter_Batch_5": "",
+      "MatrixVectorActivation_4": {
+        "MatrixVectorActivation_4": "",
+        "MatrixVectorActivation_4_wstrm": ""
+      },
+      "StreamingDataWidthConverter_Batch_6": {
+        "dwc": ""
+      },
+      "MatrixVectorActivation_5": {
+        "MatrixVectorActivation_5": "",
+        "MatrixVectorActivation_5_wstrm": ""
+      },
+      "LabelSelect_Batch_0": ""
+    },
+    "interface_ports": {
+      "s_axilite_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+        "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "7"
+          },
+          "ARUSER_WIDTH": {
+            "value": "0"
+          },
+          "AWUSER_WIDTH": {
+            "value": "0"
+          },
+          "BUSER_WIDTH": {
+            "value": "0"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_BURST": {
+            "value": "0"
+          },
+          "HAS_CACHE": {
+            "value": "0"
+          },
+          "HAS_LOCK": {
+            "value": "0"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_QOS": {
+            "value": "0"
+          },
+          "HAS_REGION": {
+            "value": "0"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "ID_WIDTH": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "MAX_BURST_LENGTH": {
+            "value": "1"
+          },
+          "NUM_READ_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_READ_THREADS": {
+            "value": "1"
+          },
+          "NUM_WRITE_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_WRITE_THREADS": {
+            "value": "1"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          },
+          "RUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "RUSER_WIDTH": {
+            "value": "0"
+          },
+          "SUPPORTS_NARROW_BURST": {
+            "value": "0"
+          },
+          "WUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "WUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "address_space_ref": "s_axilite_0",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0x0000007F",
+          "width": "7"
+        },
+        "port_maps": {
+          "AWADDR": {
+            "physical_name": "s_axilite_0_awaddr",
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "AWPROT": {
+            "physical_name": "s_axilite_0_awprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "AWVALID": {
+            "physical_name": "s_axilite_0_awvalid",
+            "direction": "I"
+          },
+          "AWREADY": {
+            "physical_name": "s_axilite_0_awready",
+            "direction": "O"
+          },
+          "WDATA": {
+            "physical_name": "s_axilite_0_wdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "s_axilite_0_wstrb",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WVALID": {
+            "physical_name": "s_axilite_0_wvalid",
+            "direction": "I"
+          },
+          "WREADY": {
+            "physical_name": "s_axilite_0_wready",
+            "direction": "O"
+          },
+          "BRESP": {
+            "physical_name": "s_axilite_0_bresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "BVALID": {
+            "physical_name": "s_axilite_0_bvalid",
+            "direction": "O"
+          },
+          "BREADY": {
+            "physical_name": "s_axilite_0_bready",
+            "direction": "I"
+          },
+          "ARADDR": {
+            "physical_name": "s_axilite_0_araddr",
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "ARPROT": {
+            "physical_name": "s_axilite_0_arprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ARVALID": {
+            "physical_name": "s_axilite_0_arvalid",
+            "direction": "I"
+          },
+          "ARREADY": {
+            "physical_name": "s_axilite_0_arready",
+            "direction": "O"
+          },
+          "RDATA": {
+            "physical_name": "s_axilite_0_rdata",
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RRESP": {
+            "physical_name": "s_axilite_0_rresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RVALID": {
+            "physical_name": "s_axilite_0_rvalid",
+            "direction": "O"
+          },
+          "RREADY": {
+            "physical_name": "s_axilite_0_rready",
+            "direction": "I"
+          }
+        }
+      },
+      "s_axilite_1": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+        "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "11"
+          },
+          "ARUSER_WIDTH": {
+            "value": "0"
+          },
+          "AWUSER_WIDTH": {
+            "value": "0"
+          },
+          "BUSER_WIDTH": {
+            "value": "0"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_BURST": {
+            "value": "0"
+          },
+          "HAS_CACHE": {
+            "value": "0"
+          },
+          "HAS_LOCK": {
+            "value": "0"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_QOS": {
+            "value": "0"
+          },
+          "HAS_REGION": {
+            "value": "0"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "ID_WIDTH": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "MAX_BURST_LENGTH": {
+            "value": "1"
+          },
+          "NUM_READ_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_READ_THREADS": {
+            "value": "1"
+          },
+          "NUM_WRITE_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_WRITE_THREADS": {
+            "value": "1"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          },
+          "RUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "RUSER_WIDTH": {
+            "value": "0"
+          },
+          "SUPPORTS_NARROW_BURST": {
+            "value": "0"
+          },
+          "WUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "WUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "address_space_ref": "s_axilite_1",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0x000007FF",
+          "width": "11"
+        },
+        "port_maps": {
+          "AWADDR": {
+            "physical_name": "s_axilite_1_awaddr",
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "AWPROT": {
+            "physical_name": "s_axilite_1_awprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "AWVALID": {
+            "physical_name": "s_axilite_1_awvalid",
+            "direction": "I"
+          },
+          "AWREADY": {
+            "physical_name": "s_axilite_1_awready",
+            "direction": "O"
+          },
+          "WDATA": {
+            "physical_name": "s_axilite_1_wdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "s_axilite_1_wstrb",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WVALID": {
+            "physical_name": "s_axilite_1_wvalid",
+            "direction": "I"
+          },
+          "WREADY": {
+            "physical_name": "s_axilite_1_wready",
+            "direction": "O"
+          },
+          "BRESP": {
+            "physical_name": "s_axilite_1_bresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "BVALID": {
+            "physical_name": "s_axilite_1_bvalid",
+            "direction": "O"
+          },
+          "BREADY": {
+            "physical_name": "s_axilite_1_bready",
+            "direction": "I"
+          },
+          "ARADDR": {
+            "physical_name": "s_axilite_1_araddr",
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "ARPROT": {
+            "physical_name": "s_axilite_1_arprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ARVALID": {
+            "physical_name": "s_axilite_1_arvalid",
+            "direction": "I"
+          },
+          "ARREADY": {
+            "physical_name": "s_axilite_1_arready",
+            "direction": "O"
+          },
+          "RDATA": {
+            "physical_name": "s_axilite_1_rdata",
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RRESP": {
+            "physical_name": "s_axilite_1_rresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RVALID": {
+            "physical_name": "s_axilite_1_rvalid",
+            "direction": "O"
+          },
+          "RREADY": {
+            "physical_name": "s_axilite_1_rready",
+            "direction": "I"
+          }
+        }
+      },
+      "s_axilite_2": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+        "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "11"
+          },
+          "ARUSER_WIDTH": {
+            "value": "0"
+          },
+          "AWUSER_WIDTH": {
+            "value": "0"
+          },
+          "BUSER_WIDTH": {
+            "value": "0"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_BURST": {
+            "value": "0"
+          },
+          "HAS_CACHE": {
+            "value": "0"
+          },
+          "HAS_LOCK": {
+            "value": "0"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_QOS": {
+            "value": "0"
+          },
+          "HAS_REGION": {
+            "value": "0"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "ID_WIDTH": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "MAX_BURST_LENGTH": {
+            "value": "1"
+          },
+          "NUM_READ_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_READ_THREADS": {
+            "value": "1"
+          },
+          "NUM_WRITE_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_WRITE_THREADS": {
+            "value": "1"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          },
+          "RUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "RUSER_WIDTH": {
+            "value": "0"
+          },
+          "SUPPORTS_NARROW_BURST": {
+            "value": "0"
+          },
+          "WUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "WUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "address_space_ref": "s_axilite_2",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0x000007FF",
+          "width": "11"
+        },
+        "port_maps": {
+          "AWADDR": {
+            "physical_name": "s_axilite_2_awaddr",
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "AWPROT": {
+            "physical_name": "s_axilite_2_awprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "AWVALID": {
+            "physical_name": "s_axilite_2_awvalid",
+            "direction": "I"
+          },
+          "AWREADY": {
+            "physical_name": "s_axilite_2_awready",
+            "direction": "O"
+          },
+          "WDATA": {
+            "physical_name": "s_axilite_2_wdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "s_axilite_2_wstrb",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WVALID": {
+            "physical_name": "s_axilite_2_wvalid",
+            "direction": "I"
+          },
+          "WREADY": {
+            "physical_name": "s_axilite_2_wready",
+            "direction": "O"
+          },
+          "BRESP": {
+            "physical_name": "s_axilite_2_bresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "BVALID": {
+            "physical_name": "s_axilite_2_bvalid",
+            "direction": "O"
+          },
+          "BREADY": {
+            "physical_name": "s_axilite_2_bready",
+            "direction": "I"
+          },
+          "ARADDR": {
+            "physical_name": "s_axilite_2_araddr",
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "ARPROT": {
+            "physical_name": "s_axilite_2_arprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ARVALID": {
+            "physical_name": "s_axilite_2_arvalid",
+            "direction": "I"
+          },
+          "ARREADY": {
+            "physical_name": "s_axilite_2_arready",
+            "direction": "O"
+          },
+          "RDATA": {
+            "physical_name": "s_axilite_2_rdata",
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RRESP": {
+            "physical_name": "s_axilite_2_rresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RVALID": {
+            "physical_name": "s_axilite_2_rvalid",
+            "direction": "O"
+          },
+          "RREADY": {
+            "physical_name": "s_axilite_2_rready",
+            "direction": "I"
+          }
+        }
+      },
+      "s_axilite_3": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+        "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "6"
+          },
+          "ARUSER_WIDTH": {
+            "value": "0"
+          },
+          "AWUSER_WIDTH": {
+            "value": "0"
+          },
+          "BUSER_WIDTH": {
+            "value": "0"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_BURST": {
+            "value": "0"
+          },
+          "HAS_CACHE": {
+            "value": "0"
+          },
+          "HAS_LOCK": {
+            "value": "0"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_QOS": {
+            "value": "0"
+          },
+          "HAS_REGION": {
+            "value": "0"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "ID_WIDTH": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "MAX_BURST_LENGTH": {
+            "value": "1"
+          },
+          "NUM_READ_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_READ_THREADS": {
+            "value": "1"
+          },
+          "NUM_WRITE_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_WRITE_THREADS": {
+            "value": "1"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          },
+          "RUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "RUSER_WIDTH": {
+            "value": "0"
+          },
+          "SUPPORTS_NARROW_BURST": {
+            "value": "0"
+          },
+          "WUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "WUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "address_space_ref": "s_axilite_3",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0x0000003F",
+          "width": "6"
+        },
+        "port_maps": {
+          "AWADDR": {
+            "physical_name": "s_axilite_3_awaddr",
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "AWPROT": {
+            "physical_name": "s_axilite_3_awprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "AWVALID": {
+            "physical_name": "s_axilite_3_awvalid",
+            "direction": "I"
+          },
+          "AWREADY": {
+            "physical_name": "s_axilite_3_awready",
+            "direction": "O"
+          },
+          "WDATA": {
+            "physical_name": "s_axilite_3_wdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "s_axilite_3_wstrb",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WVALID": {
+            "physical_name": "s_axilite_3_wvalid",
+            "direction": "I"
+          },
+          "WREADY": {
+            "physical_name": "s_axilite_3_wready",
+            "direction": "O"
+          },
+          "BRESP": {
+            "physical_name": "s_axilite_3_bresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "BVALID": {
+            "physical_name": "s_axilite_3_bvalid",
+            "direction": "O"
+          },
+          "BREADY": {
+            "physical_name": "s_axilite_3_bready",
+            "direction": "I"
+          },
+          "ARADDR": {
+            "physical_name": "s_axilite_3_araddr",
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "ARPROT": {
+            "physical_name": "s_axilite_3_arprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ARVALID": {
+            "physical_name": "s_axilite_3_arvalid",
+            "direction": "I"
+          },
+          "ARREADY": {
+            "physical_name": "s_axilite_3_arready",
+            "direction": "O"
+          },
+          "RDATA": {
+            "physical_name": "s_axilite_3_rdata",
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RRESP": {
+            "physical_name": "s_axilite_3_rresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RVALID": {
+            "physical_name": "s_axilite_3_rvalid",
+            "direction": "O"
+          },
+          "RREADY": {
+            "physical_name": "s_axilite_3_rready",
+            "direction": "I"
+          }
+        }
+      },
+      "s_axilite_4": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+        "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "6"
+          },
+          "ARUSER_WIDTH": {
+            "value": "0"
+          },
+          "AWUSER_WIDTH": {
+            "value": "0"
+          },
+          "BUSER_WIDTH": {
+            "value": "0"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_BURST": {
+            "value": "0"
+          },
+          "HAS_CACHE": {
+            "value": "0"
+          },
+          "HAS_LOCK": {
+            "value": "0"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_QOS": {
+            "value": "0"
+          },
+          "HAS_REGION": {
+            "value": "0"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "ID_WIDTH": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "MAX_BURST_LENGTH": {
+            "value": "1"
+          },
+          "NUM_READ_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_READ_THREADS": {
+            "value": "1"
+          },
+          "NUM_WRITE_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_WRITE_THREADS": {
+            "value": "1"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          },
+          "RUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "RUSER_WIDTH": {
+            "value": "0"
+          },
+          "SUPPORTS_NARROW_BURST": {
+            "value": "0"
+          },
+          "WUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "WUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "address_space_ref": "s_axilite_4",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0x0000003F",
+          "width": "6"
+        },
+        "port_maps": {
+          "AWADDR": {
+            "physical_name": "s_axilite_4_awaddr",
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "AWPROT": {
+            "physical_name": "s_axilite_4_awprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "AWVALID": {
+            "physical_name": "s_axilite_4_awvalid",
+            "direction": "I"
+          },
+          "AWREADY": {
+            "physical_name": "s_axilite_4_awready",
+            "direction": "O"
+          },
+          "WDATA": {
+            "physical_name": "s_axilite_4_wdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "s_axilite_4_wstrb",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WVALID": {
+            "physical_name": "s_axilite_4_wvalid",
+            "direction": "I"
+          },
+          "WREADY": {
+            "physical_name": "s_axilite_4_wready",
+            "direction": "O"
+          },
+          "BRESP": {
+            "physical_name": "s_axilite_4_bresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "BVALID": {
+            "physical_name": "s_axilite_4_bvalid",
+            "direction": "O"
+          },
+          "BREADY": {
+            "physical_name": "s_axilite_4_bready",
+            "direction": "I"
+          },
+          "ARADDR": {
+            "physical_name": "s_axilite_4_araddr",
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "ARPROT": {
+            "physical_name": "s_axilite_4_arprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ARVALID": {
+            "physical_name": "s_axilite_4_arvalid",
+            "direction": "I"
+          },
+          "ARREADY": {
+            "physical_name": "s_axilite_4_arready",
+            "direction": "O"
+          },
+          "RDATA": {
+            "physical_name": "s_axilite_4_rdata",
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RRESP": {
+            "physical_name": "s_axilite_4_rresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RVALID": {
+            "physical_name": "s_axilite_4_rvalid",
+            "direction": "O"
+          },
+          "RREADY": {
+            "physical_name": "s_axilite_4_rready",
+            "direction": "I"
+          }
+        }
+      },
+      "s_axilite_5": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+        "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "5"
+          },
+          "ARUSER_WIDTH": {
+            "value": "0"
+          },
+          "AWUSER_WIDTH": {
+            "value": "0"
+          },
+          "BUSER_WIDTH": {
+            "value": "0"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_BURST": {
+            "value": "0"
+          },
+          "HAS_CACHE": {
+            "value": "0"
+          },
+          "HAS_LOCK": {
+            "value": "0"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_QOS": {
+            "value": "0"
+          },
+          "HAS_REGION": {
+            "value": "0"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "ID_WIDTH": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "MAX_BURST_LENGTH": {
+            "value": "1"
+          },
+          "NUM_READ_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_READ_THREADS": {
+            "value": "1"
+          },
+          "NUM_WRITE_OUTSTANDING": {
+            "value": "1"
+          },
+          "NUM_WRITE_THREADS": {
+            "value": "1"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          },
+          "RUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "RUSER_WIDTH": {
+            "value": "0"
+          },
+          "SUPPORTS_NARROW_BURST": {
+            "value": "0"
+          },
+          "WUSER_BITS_PER_BYTE": {
+            "value": "0"
+          },
+          "WUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "address_space_ref": "s_axilite_5",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0x0000001F",
+          "width": "5"
+        },
+        "port_maps": {
+          "AWADDR": {
+            "physical_name": "s_axilite_5_awaddr",
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "AWPROT": {
+            "physical_name": "s_axilite_5_awprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "AWVALID": {
+            "physical_name": "s_axilite_5_awvalid",
+            "direction": "I"
+          },
+          "AWREADY": {
+            "physical_name": "s_axilite_5_awready",
+            "direction": "O"
+          },
+          "WDATA": {
+            "physical_name": "s_axilite_5_wdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "s_axilite_5_wstrb",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WVALID": {
+            "physical_name": "s_axilite_5_wvalid",
+            "direction": "I"
+          },
+          "WREADY": {
+            "physical_name": "s_axilite_5_wready",
+            "direction": "O"
+          },
+          "BRESP": {
+            "physical_name": "s_axilite_5_bresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "BVALID": {
+            "physical_name": "s_axilite_5_bvalid",
+            "direction": "O"
+          },
+          "BREADY": {
+            "physical_name": "s_axilite_5_bready",
+            "direction": "I"
+          },
+          "ARADDR": {
+            "physical_name": "s_axilite_5_araddr",
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "ARPROT": {
+            "physical_name": "s_axilite_5_arprot",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ARVALID": {
+            "physical_name": "s_axilite_5_arvalid",
+            "direction": "I"
+          },
+          "ARREADY": {
+            "physical_name": "s_axilite_5_arready",
+            "direction": "O"
+          },
+          "RDATA": {
+            "physical_name": "s_axilite_5_rdata",
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RRESP": {
+            "physical_name": "s_axilite_5_rresp",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RVALID": {
+            "physical_name": "s_axilite_5_rvalid",
+            "direction": "O"
+          },
+          "RREADY": {
+            "physical_name": "s_axilite_5_rready",
+            "direction": "I"
+          }
+        }
+      },
+      "s_axis_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_TKEEP": {
+            "value": "0"
+          },
+          "HAS_TLAST": {
+            "value": "0"
+          },
+          "HAS_TREADY": {
+            "value": "1"
+          },
+          "HAS_TSTRB": {
+            "value": "0"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "LAYERED_METADATA": {
+            "value": "undef"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "TDATA_NUM_BYTES": {
+            "value": "1"
+          },
+          "TDEST_WIDTH": {
+            "value": "0"
+          },
+          "TID_WIDTH": {
+            "value": "0"
+          },
+          "TUSER_WIDTH": {
+            "value": "0"
+          }
+        },
+        "port_maps": {
+          "TDATA": {
+            "physical_name": "s_axis_0_tdata",
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "TVALID": {
+            "physical_name": "s_axis_0_tvalid",
+            "direction": "I"
+          },
+          "TREADY": {
+            "physical_name": "s_axis_0_tready",
+            "direction": "O"
+          }
+        }
+      },
+      "m_axis_0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "HAS_TKEEP": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "HAS_TLAST": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "HAS_TREADY": {
+            "value": "1",
+            "value_src": "const_prop"
+          },
+          "HAS_TSTRB": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "TDATA_NUM_BYTES": {
+            "value": "1",
+            "value_src": "const_prop"
+          },
+          "TDEST_WIDTH": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "TID_WIDTH": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "TUSER_WIDTH": {
+            "value": "0",
+            "value_src": "const_prop"
+          }
+        },
+        "port_maps": {
+          "TVALID": {
+            "physical_name": "m_axis_0_tvalid",
+            "direction": "O"
+          },
+          "TREADY": {
+            "physical_name": "m_axis_0_tready",
+            "direction": "I"
+          },
+          "TDATA": {
+            "physical_name": "m_axis_0_tdata",
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "ports": {
+      "ap_clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_BUSIF": {
+            "value": "s_axilite_0:s_axilite_1:s_axilite_2:s_axilite_3:s_axilite_4:s_axilite_5:s_axis_0:m_axis_0",
+            "value_src": "default"
+          },
+          "ASSOCIATED_RESET": {
+            "value": "ap_rst_n",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "finn_design_ap_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000.000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "ap_rst_n": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "StreamingFIFO_0": {
+        "vlnv": "xilinx.com:hls:StreamingFIFO_0:1.0",
+        "xci_name": "finn_design_StreamingFIFO_0_0",
+        "xci_path": "ip/finn_design_StreamingFIFO_0_0/finn_design_StreamingFIFO_0_0.xci",
+        "inst_hier_path": "StreamingFIFO_0"
+      },
+      "Thresholding_Batch_0": {
+        "vlnv": "xilinx.com:hls:Thresholding_Batch_0:1.0",
+        "xci_name": "finn_design_Thresholding_Batch_0_0",
+        "xci_path": "ip/finn_design_Thresholding_Batch_0_0/finn_design_Thresholding_Batch_0_0.xci",
+        "inst_hier_path": "Thresholding_Batch_0"
+      },
+      "StreamingFIFO_1": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "fifo": {
+            "vlnv": "xilinx.com:ip:axis_data_fifo:2.0",
+            "xci_name": "finn_design_fifo_0",
+            "xci_path": "ip/finn_design_fifo_0/finn_design_fifo_0.xci",
+            "inst_hier_path": "StreamingFIFO_1/fifo",
+            "parameters": {
+              "FIFO_DEPTH": {
+                "value": "512"
+              },
+              "FIFO_MEMORY_TYPE": {
+                "value": "auto"
+              },
+              "TDATA_NUM_BYTES": {
+                "value": "1"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "fifo_M_AXIS": {
+            "interface_ports": [
+              "out_V",
+              "fifo/M_AXIS"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "fifo/S_AXIS"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "fifo/s_axis_aclk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "fifo/s_axis_aresetn"
+            ]
+          }
+        }
+      },
+      "ConvolutionInputGenerator_0": {
+        "vlnv": "xilinx.com:hls:ConvolutionInputGenerator_0:1.0",
+        "xci_name": "finn_design_ConvolutionInputGenerator_0_0",
+        "xci_path": "ip/finn_design_ConvolutionInputGenerator_0_0/finn_design_ConvolutionInputGenerator_0_0.xci",
+        "inst_hier_path": "ConvolutionInputGenerator_0"
+      },
+      "StreamingDataWidthConverter_Batch_0": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "dwc": {
+            "vlnv": "xilinx.com:ip:axis_dwidth_converter:1.1",
+            "xci_name": "finn_design_dwc_0",
+            "xci_path": "ip/finn_design_dwc_0/finn_design_dwc_0.xci",
+            "inst_hier_path": "StreamingDataWidthConverter_Batch_0/dwc",
+            "parameters": {
+              "M_TDATA_NUM_BYTES": {
+                "value": "4"
+              },
+              "S_TDATA_NUM_BYTES": {
+                "value": "1"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "dwc_M_AXIS": {
+            "interface_ports": [
+              "out_V",
+              "dwc/M_AXIS"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "dwc/S_AXIS"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "dwc/aclk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "dwc/aresetn"
+            ]
+          }
+        }
+      },
+      "StreamingFIFO_3": {
+        "vlnv": "xilinx.com:hls:StreamingFIFO_3:1.0",
+        "xci_name": "finn_design_StreamingFIFO_3_0",
+        "xci_path": "ip/finn_design_StreamingFIFO_3_0/finn_design_StreamingFIFO_3_0.xci",
+        "inst_hier_path": "StreamingFIFO_3"
+      },
+      "MatrixVectorActivation_0": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "s_axilite": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "MatrixVectorActivation_0": {
+            "vlnv": "xilinx.com:hls:MatrixVectorActivation_0:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_0_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_0_0/finn_design_MatrixVectorActivation_0_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_0/MatrixVectorActivation_0"
+          },
+          "MatrixVectorActivation_0_wstrm": {
+            "vlnv": "xilinx.com:user:memstream:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_0_wstrm_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_0_wstrm_0/finn_design_MatrixVectorActivation_0_wstrm_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_0/MatrixVectorActivation_0_wstrm",
+            "parameters": {
+              "MEM_DEPTH": {
+                "value": "27"
+              },
+              "MEM_INIT": {
+                "value": "/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_0_9vkg6_ht/"
+              },
+              "MEM_WIDTH": {
+                "value": "32"
+              },
+              "NSTREAMS": {
+                "value": "1"
+              },
+              "RAM_STYLE": {
+                "value": "auto"
+              },
+              "STRM0_DEPTH": {
+                "value": "27"
+              },
+              "STRM0_OFFSET": {
+                "value": "0"
+              },
+              "STRM0_WIDTH": {
+                "value": "32"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "MatrixVectorActivation_0_out_V": {
+            "interface_ports": [
+              "out_V",
+              "MatrixVectorActivation_0/out_V"
+            ]
+          },
+          "MatrixVectorActivation_0_wstrm_m_axis_0": {
+            "interface_ports": [
+              "MatrixVectorActivation_0_wstrm/m_axis_0",
+              "MatrixVectorActivation_0/weights_V"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "MatrixVectorActivation_0/in0_V"
+            ]
+          },
+          "s_axilite_1": {
+            "interface_ports": [
+              "s_axilite",
+              "MatrixVectorActivation_0_wstrm/s_axilite"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "MatrixVectorActivation_0_wstrm/aclk",
+              "MatrixVectorActivation_0/ap_clk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "MatrixVectorActivation_0_wstrm/aresetn",
+              "MatrixVectorActivation_0/ap_rst_n"
+            ]
+          }
+        }
+      },
+      "StreamingDataWidthConverter_Batch_1": {
+        "vlnv": "xilinx.com:hls:StreamingDataWidthConverter_Batch_1:1.0",
+        "xci_name": "finn_design_StreamingDataWidthConverter_Batch_1_0",
+        "xci_path": "ip/finn_design_StreamingDataWidthConverter_Batch_1_0/finn_design_StreamingDataWidthConverter_Batch_1_0.xci",
+        "inst_hier_path": "StreamingDataWidthConverter_Batch_1"
+      },
+      "StreamingFIFO_5": {
+        "vlnv": "xilinx.com:hls:StreamingFIFO_5:1.0",
+        "xci_name": "finn_design_StreamingFIFO_5_0",
+        "xci_path": "ip/finn_design_StreamingFIFO_5_0/finn_design_StreamingFIFO_5_0.xci",
+        "inst_hier_path": "StreamingFIFO_5"
+      },
+      "ConvolutionInputGenerator_1": {
+        "vlnv": "xilinx.com:hls:ConvolutionInputGenerator_1:1.0",
+        "xci_name": "finn_design_ConvolutionInputGenerator_1_0",
+        "xci_path": "ip/finn_design_ConvolutionInputGenerator_1_0/finn_design_ConvolutionInputGenerator_1_0.xci",
+        "inst_hier_path": "ConvolutionInputGenerator_1"
+      },
+      "StreamingFIFO_6": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "fifo": {
+            "vlnv": "xilinx.com:ip:axis_data_fifo:2.0",
+            "xci_name": "finn_design_fifo_1",
+            "xci_path": "ip/finn_design_fifo_1/finn_design_fifo_1.xci",
+            "inst_hier_path": "StreamingFIFO_6/fifo",
+            "parameters": {
+              "FIFO_DEPTH": {
+                "value": "2048"
+              },
+              "FIFO_MEMORY_TYPE": {
+                "value": "auto"
+              },
+              "TDATA_NUM_BYTES": {
+                "value": "3"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "fifo_M_AXIS": {
+            "interface_ports": [
+              "out_V",
+              "fifo/M_AXIS"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "fifo/S_AXIS"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "fifo/s_axis_aclk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "fifo/s_axis_aresetn"
+            ]
+          }
+        }
+      },
+      "StreamingDataWidthConverter_Batch_2": {
+        "vlnv": "xilinx.com:hls:StreamingDataWidthConverter_Batch_2:1.0",
+        "xci_name": "finn_design_StreamingDataWidthConverter_Batch_2_0",
+        "xci_path": "ip/finn_design_StreamingDataWidthConverter_Batch_2_0/finn_design_StreamingDataWidthConverter_Batch_2_0.xci",
+        "inst_hier_path": "StreamingDataWidthConverter_Batch_2"
+      },
+      "MatrixVectorActivation_1": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "s_axilite": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "MatrixVectorActivation_1": {
+            "vlnv": "xilinx.com:hls:MatrixVectorActivation_1:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_1_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_1_0/finn_design_MatrixVectorActivation_1_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_1/MatrixVectorActivation_1"
+          },
+          "MatrixVectorActivation_1_wstrm": {
+            "vlnv": "xilinx.com:user:memstream:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_1_wstrm_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_1_wstrm_0/finn_design_MatrixVectorActivation_1_wstrm_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_1/MatrixVectorActivation_1_wstrm",
+            "parameters": {
+              "MEM_DEPTH": {
+                "value": "63"
+              },
+              "MEM_INIT": {
+                "value": "/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_1_6gre_pox/"
+              },
+              "MEM_WIDTH": {
+                "value": "256"
+              },
+              "NSTREAMS": {
+                "value": "1"
+              },
+              "RAM_STYLE": {
+                "value": "auto"
+              },
+              "STRM0_DEPTH": {
+                "value": "63"
+              },
+              "STRM0_OFFSET": {
+                "value": "0"
+              },
+              "STRM0_WIDTH": {
+                "value": "256"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "MatrixVectorActivation_1_out_V": {
+            "interface_ports": [
+              "out_V",
+              "MatrixVectorActivation_1/out_V"
+            ]
+          },
+          "MatrixVectorActivation_1_wstrm_m_axis_0": {
+            "interface_ports": [
+              "MatrixVectorActivation_1_wstrm/m_axis_0",
+              "MatrixVectorActivation_1/weights_V"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "MatrixVectorActivation_1/in0_V"
+            ]
+          },
+          "s_axilite_1": {
+            "interface_ports": [
+              "s_axilite",
+              "MatrixVectorActivation_1_wstrm/s_axilite"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "MatrixVectorActivation_1_wstrm/aclk",
+              "MatrixVectorActivation_1/ap_clk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "MatrixVectorActivation_1_wstrm/aresetn",
+              "MatrixVectorActivation_1/ap_rst_n"
+            ]
+          }
+        }
+      },
+      "StreamingMaxPool_Batch_0": {
+        "vlnv": "xilinx.com:hls:StreamingMaxPool_Batch_0:1.0",
+        "xci_name": "finn_design_StreamingMaxPool_Batch_0_0",
+        "xci_path": "ip/finn_design_StreamingMaxPool_Batch_0_0/finn_design_StreamingMaxPool_Batch_0_0.xci",
+        "inst_hier_path": "StreamingMaxPool_Batch_0"
+      },
+      "StreamingFIFO_9": {
+        "vlnv": "xilinx.com:hls:StreamingFIFO_9:1.0",
+        "xci_name": "finn_design_StreamingFIFO_9_0",
+        "xci_path": "ip/finn_design_StreamingFIFO_9_0/finn_design_StreamingFIFO_9_0.xci",
+        "inst_hier_path": "StreamingFIFO_9"
+      },
+      "StreamingDataWidthConverter_Batch_3": {
+        "vlnv": "xilinx.com:hls:StreamingDataWidthConverter_Batch_3:1.0",
+        "xci_name": "finn_design_StreamingDataWidthConverter_Batch_3_0",
+        "xci_path": "ip/finn_design_StreamingDataWidthConverter_Batch_3_0/finn_design_StreamingDataWidthConverter_Batch_3_0.xci",
+        "inst_hier_path": "StreamingDataWidthConverter_Batch_3"
+      },
+      "ConvolutionInputGenerator_2": {
+        "vlnv": "xilinx.com:hls:ConvolutionInputGenerator_2:1.0",
+        "xci_name": "finn_design_ConvolutionInputGenerator_2_0",
+        "xci_path": "ip/finn_design_ConvolutionInputGenerator_2_0/finn_design_ConvolutionInputGenerator_2_0.xci",
+        "inst_hier_path": "ConvolutionInputGenerator_2"
+      },
+      "StreamingDataWidthConverter_Batch_4": {
+        "vlnv": "xilinx.com:hls:StreamingDataWidthConverter_Batch_4:1.0",
+        "xci_name": "finn_design_StreamingDataWidthConverter_Batch_4_0",
+        "xci_path": "ip/finn_design_StreamingDataWidthConverter_Batch_4_0/finn_design_StreamingDataWidthConverter_Batch_4_0.xci",
+        "inst_hier_path": "StreamingDataWidthConverter_Batch_4"
+      },
+      "MatrixVectorActivation_2": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "s_axilite": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "MatrixVectorActivation_2": {
+            "vlnv": "xilinx.com:hls:MatrixVectorActivation_2:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_2_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_2_0/finn_design_MatrixVectorActivation_2_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_2/MatrixVectorActivation_2"
+          },
+          "MatrixVectorActivation_2_wstrm": {
+            "vlnv": "xilinx.com:user:memstream:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_2_wstrm_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_2_wstrm_0/finn_design_MatrixVectorActivation_2_wstrm_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_2/MatrixVectorActivation_2_wstrm",
+            "parameters": {
+              "MEM_DEPTH": {
+                "value": "63"
+              },
+              "MEM_INIT": {
+                "value": "/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_2__dc96uvj/"
+              },
+              "MEM_WIDTH": {
+                "value": "256"
+              },
+              "NSTREAMS": {
+                "value": "1"
+              },
+              "RAM_STYLE": {
+                "value": "auto"
+              },
+              "STRM0_DEPTH": {
+                "value": "63"
+              },
+              "STRM0_OFFSET": {
+                "value": "0"
+              },
+              "STRM0_WIDTH": {
+                "value": "256"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "MatrixVectorActivation_2_out_V": {
+            "interface_ports": [
+              "out_V",
+              "MatrixVectorActivation_2/out_V"
+            ]
+          },
+          "MatrixVectorActivation_2_wstrm_m_axis_0": {
+            "interface_ports": [
+              "MatrixVectorActivation_2_wstrm/m_axis_0",
+              "MatrixVectorActivation_2/weights_V"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "MatrixVectorActivation_2/in0_V"
+            ]
+          },
+          "s_axilite_1": {
+            "interface_ports": [
+              "s_axilite",
+              "MatrixVectorActivation_2_wstrm/s_axilite"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "MatrixVectorActivation_2_wstrm/aclk",
+              "MatrixVectorActivation_2/ap_clk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "MatrixVectorActivation_2_wstrm/aresetn",
+              "MatrixVectorActivation_2/ap_rst_n"
+            ]
+          }
+        }
+      },
+      "MatrixVectorActivation_3": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "s_axilite": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "MatrixVectorActivation_3": {
+            "vlnv": "xilinx.com:hls:MatrixVectorActivation_3:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_3_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_3_0/finn_design_MatrixVectorActivation_3_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_3/MatrixVectorActivation_3"
+          },
+          "MatrixVectorActivation_3_wstrm": {
+            "vlnv": "xilinx.com:user:memstream:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_3_wstrm_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_3_wstrm_0/finn_design_MatrixVectorActivation_3_wstrm_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_3/MatrixVectorActivation_3_wstrm",
+            "parameters": {
+              "MEM_DEPTH": {
+                "value": "16"
+              },
+              "MEM_INIT": {
+                "value": "/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_3_6wk94lp2/"
+              },
+              "MEM_WIDTH": {
+                "value": "24"
+              },
+              "NSTREAMS": {
+                "value": "1"
+              },
+              "RAM_STYLE": {
+                "value": "auto"
+              },
+              "STRM0_DEPTH": {
+                "value": "16"
+              },
+              "STRM0_OFFSET": {
+                "value": "0"
+              },
+              "STRM0_WIDTH": {
+                "value": "24"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "MatrixVectorActivation_3_out_V": {
+            "interface_ports": [
+              "out_V",
+              "MatrixVectorActivation_3/out_V"
+            ]
+          },
+          "MatrixVectorActivation_3_wstrm_m_axis_0": {
+            "interface_ports": [
+              "MatrixVectorActivation_3_wstrm/m_axis_0",
+              "MatrixVectorActivation_3/weights_V"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "MatrixVectorActivation_3/in0_V"
+            ]
+          },
+          "s_axilite_1": {
+            "interface_ports": [
+              "s_axilite",
+              "MatrixVectorActivation_3_wstrm/s_axilite"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "MatrixVectorActivation_3_wstrm/aclk",
+              "MatrixVectorActivation_3/ap_clk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "MatrixVectorActivation_3_wstrm/aresetn",
+              "MatrixVectorActivation_3/ap_rst_n"
+            ]
+          }
+        }
+      },
+      "StreamingDataWidthConverter_Batch_5": {
+        "vlnv": "xilinx.com:hls:StreamingDataWidthConverter_Batch_5:1.0",
+        "xci_name": "finn_design_StreamingDataWidthConverter_Batch_5_0",
+        "xci_path": "ip/finn_design_StreamingDataWidthConverter_Batch_5_0/finn_design_StreamingDataWidthConverter_Batch_5_0.xci",
+        "inst_hier_path": "StreamingDataWidthConverter_Batch_5"
+      },
+      "MatrixVectorActivation_4": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "s_axilite": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "MatrixVectorActivation_4": {
+            "vlnv": "xilinx.com:hls:MatrixVectorActivation_4:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_4_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_4_0/finn_design_MatrixVectorActivation_4_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_4/MatrixVectorActivation_4"
+          },
+          "MatrixVectorActivation_4_wstrm": {
+            "vlnv": "xilinx.com:user:memstream:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_4_wstrm_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_4_wstrm_0/finn_design_MatrixVectorActivation_4_wstrm_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_4/MatrixVectorActivation_4_wstrm",
+            "parameters": {
+              "MEM_DEPTH": {
+                "value": "16"
+              },
+              "MEM_INIT": {
+                "value": "/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_4_cide3z0u/"
+              },
+              "MEM_WIDTH": {
+                "value": "16"
+              },
+              "NSTREAMS": {
+                "value": "1"
+              },
+              "RAM_STYLE": {
+                "value": "auto"
+              },
+              "STRM0_DEPTH": {
+                "value": "16"
+              },
+              "STRM0_OFFSET": {
+                "value": "0"
+              },
+              "STRM0_WIDTH": {
+                "value": "16"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "MatrixVectorActivation_4_out_V": {
+            "interface_ports": [
+              "out_V",
+              "MatrixVectorActivation_4/out_V"
+            ]
+          },
+          "MatrixVectorActivation_4_wstrm_m_axis_0": {
+            "interface_ports": [
+              "MatrixVectorActivation_4_wstrm/m_axis_0",
+              "MatrixVectorActivation_4/weights_V"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "MatrixVectorActivation_4/in0_V"
+            ]
+          },
+          "s_axilite_1": {
+            "interface_ports": [
+              "s_axilite",
+              "MatrixVectorActivation_4_wstrm/s_axilite"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "MatrixVectorActivation_4_wstrm/aclk",
+              "MatrixVectorActivation_4/ap_clk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "MatrixVectorActivation_4_wstrm/aresetn",
+              "MatrixVectorActivation_4/ap_rst_n"
+            ]
+          }
+        }
+      },
+      "StreamingDataWidthConverter_Batch_6": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "dwc": {
+            "vlnv": "xilinx.com:ip:axis_dwidth_converter:1.1",
+            "xci_name": "finn_design_dwc_1",
+            "xci_path": "ip/finn_design_dwc_1/finn_design_dwc_1.xci",
+            "inst_hier_path": "StreamingDataWidthConverter_Batch_6/dwc",
+            "parameters": {
+              "M_TDATA_NUM_BYTES": {
+                "value": "2"
+              },
+              "S_TDATA_NUM_BYTES": {
+                "value": "1"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "dwc_M_AXIS": {
+            "interface_ports": [
+              "out_V",
+              "dwc/M_AXIS"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "dwc/S_AXIS"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "dwc/aclk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "dwc/aresetn"
+            ]
+          }
+        }
+      },
+      "MatrixVectorActivation_5": {
+        "interface_ports": {
+          "out_V": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "in0_V": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "s_axilite": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
+          }
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "ap_rst_n": {
+            "type": "rst",
+            "direction": "I"
+          }
+        },
+        "components": {
+          "MatrixVectorActivation_5": {
+            "vlnv": "xilinx.com:hls:MatrixVectorActivation_5:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_5_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_5_0/finn_design_MatrixVectorActivation_5_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_5/MatrixVectorActivation_5"
+          },
+          "MatrixVectorActivation_5_wstrm": {
+            "vlnv": "xilinx.com:user:memstream:1.0",
+            "xci_name": "finn_design_MatrixVectorActivation_5_wstrm_0",
+            "xci_path": "ip/finn_design_MatrixVectorActivation_5_wstrm_0/finn_design_MatrixVectorActivation_5_wstrm_0.xci",
+            "inst_hier_path": "MatrixVectorActivation_5/MatrixVectorActivation_5_wstrm",
+            "parameters": {
+              "MEM_DEPTH": {
+                "value": "5"
+              },
+              "MEM_INIT": {
+                "value": "/tmp/finn_dev_shakeelarkam00/code_gen_ipgen_MatrixVectorActivation_5_pus_cs12/"
+              },
+              "MEM_WIDTH": {
+                "value": "16"
+              },
+              "NSTREAMS": {
+                "value": "1"
+              },
+              "RAM_STYLE": {
+                "value": "auto"
+              },
+              "STRM0_DEPTH": {
+                "value": "5"
+              },
+              "STRM0_OFFSET": {
+                "value": "0"
+              },
+              "STRM0_WIDTH": {
+                "value": "16"
+              }
+            }
+          }
+        },
+        "interface_nets": {
+          "MatrixVectorActivation_5_out_V": {
+            "interface_ports": [
+              "out_V",
+              "MatrixVectorActivation_5/out_V"
+            ]
+          },
+          "MatrixVectorActivation_5_wstrm_m_axis_0": {
+            "interface_ports": [
+              "MatrixVectorActivation_5_wstrm/m_axis_0",
+              "MatrixVectorActivation_5/weights_V"
+            ]
+          },
+          "in0_V_1": {
+            "interface_ports": [
+              "in0_V",
+              "MatrixVectorActivation_5/in0_V"
+            ]
+          },
+          "s_axilite_1": {
+            "interface_ports": [
+              "s_axilite",
+              "MatrixVectorActivation_5_wstrm/s_axilite"
+            ]
+          }
+        },
+        "nets": {
+          "ap_clk_1": {
+            "ports": [
+              "ap_clk",
+              "MatrixVectorActivation_5_wstrm/aclk",
+              "MatrixVectorActivation_5/ap_clk"
+            ]
+          },
+          "ap_rst_n_1": {
+            "ports": [
+              "ap_rst_n",
+              "MatrixVectorActivation_5_wstrm/aresetn",
+              "MatrixVectorActivation_5/ap_rst_n"
+            ]
+          }
+        }
+      },
+      "LabelSelect_Batch_0": {
+        "vlnv": "xilinx.com:hls:LabelSelect_Batch_0:1.0",
+        "xci_name": "finn_design_LabelSelect_Batch_0_0",
+        "xci_path": "ip/finn_design_LabelSelect_Batch_0_0/finn_design_LabelSelect_Batch_0_0.xci",
+        "inst_hier_path": "LabelSelect_Batch_0"
+      }
+    },
+    "interface_nets": {
+      "ConvolutionInputGenerator_0_out_V": {
+        "interface_ports": [
+          "ConvolutionInputGenerator_0/out_V",
+          "StreamingDataWidthConverter_Batch_0/in0_V"
+        ]
+      },
+      "ConvolutionInputGenerator_1_out_V": {
+        "interface_ports": [
+          "ConvolutionInputGenerator_1/out_V",
+          "StreamingFIFO_6/in0_V"
+        ]
+      },
+      "ConvolutionInputGenerator_2_out_V": {
+        "interface_ports": [
+          "ConvolutionInputGenerator_2/out_V",
+          "StreamingDataWidthConverter_Batch_4/in0_V"
+        ]
+      },
+      "LabelSelect_Batch_0_out_V": {
+        "interface_ports": [
+          "m_axis_0",
+          "LabelSelect_Batch_0/out_V"
+        ]
+      },
+      "MatrixVectorActivation_0_out_V": {
+        "interface_ports": [
+          "MatrixVectorActivation_0/out_V",
+          "StreamingDataWidthConverter_Batch_1/in0_V"
+        ]
+      },
+      "MatrixVectorActivation_1_out_V": {
+        "interface_ports": [
+          "MatrixVectorActivation_1/out_V",
+          "StreamingMaxPool_Batch_0/in0_V"
+        ]
+      },
+      "MatrixVectorActivation_2_out_V": {
+        "interface_ports": [
+          "MatrixVectorActivation_2/out_V",
+          "MatrixVectorActivation_3/in0_V"
+        ]
+      },
+      "MatrixVectorActivation_3_out_V": {
+        "interface_ports": [
+          "MatrixVectorActivation_3/out_V",
+          "StreamingDataWidthConverter_Batch_5/in0_V"
+        ]
+      },
+      "MatrixVectorActivation_4_out_V": {
+        "interface_ports": [
+          "MatrixVectorActivation_4/out_V",
+          "StreamingDataWidthConverter_Batch_6/in0_V"
+        ]
+      },
+      "MatrixVectorActivation_5_out_V": {
+        "interface_ports": [
+          "MatrixVectorActivation_5/out_V",
+          "LabelSelect_Batch_0/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_0_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_0/out_V",
+          "StreamingFIFO_3/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_1_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_1/out_V",
+          "StreamingFIFO_5/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_2_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_2/out_V",
+          "MatrixVectorActivation_1/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_3_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_3/out_V",
+          "ConvolutionInputGenerator_2/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_4_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_4/out_V",
+          "MatrixVectorActivation_2/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_5_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_5/out_V",
+          "MatrixVectorActivation_4/in0_V"
+        ]
+      },
+      "StreamingDataWidthConverter_Batch_6_out_V": {
+        "interface_ports": [
+          "StreamingDataWidthConverter_Batch_6/out_V",
+          "MatrixVectorActivation_5/in0_V"
+        ]
+      },
+      "StreamingFIFO_0_out_V": {
+        "interface_ports": [
+          "StreamingFIFO_0/out_V",
+          "Thresholding_Batch_0/in0_V"
+        ]
+      },
+      "StreamingFIFO_1_out_V": {
+        "interface_ports": [
+          "StreamingFIFO_1/out_V",
+          "ConvolutionInputGenerator_0/in0_V"
+        ]
+      },
+      "StreamingFIFO_3_out_V": {
+        "interface_ports": [
+          "StreamingFIFO_3/out_V",
+          "MatrixVectorActivation_0/in0_V"
+        ]
+      },
+      "StreamingFIFO_5_out_V": {
+        "interface_ports": [
+          "StreamingFIFO_5/out_V",
+          "ConvolutionInputGenerator_1/in0_V"
+        ]
+      },
+      "StreamingFIFO_6_out_V": {
+        "interface_ports": [
+          "StreamingFIFO_6/out_V",
+          "StreamingDataWidthConverter_Batch_2/in0_V"
+        ]
+      },
+      "StreamingFIFO_9_out_V": {
+        "interface_ports": [
+          "StreamingFIFO_9/out_V",
+          "StreamingDataWidthConverter_Batch_3/in0_V"
+        ]
+      },
+      "StreamingMaxPool_Batch_0_out_V": {
+        "interface_ports": [
+          "StreamingMaxPool_Batch_0/out_V",
+          "StreamingFIFO_9/in0_V"
+        ]
+      },
+      "Thresholding_Batch_0_out_V": {
+        "interface_ports": [
+          "Thresholding_Batch_0/out_V",
+          "StreamingFIFO_1/in0_V"
+        ]
+      },
+      "in0_V_0_1": {
+        "interface_ports": [
+          "s_axis_0",
+          "StreamingFIFO_0/in0_V"
+        ]
+      },
+      "s_axilite_0_1": {
+        "interface_ports": [
+          "s_axilite_0",
+          "MatrixVectorActivation_0/s_axilite"
+        ]
+      },
+      "s_axilite_1_1": {
+        "interface_ports": [
+          "s_axilite_1",
+          "MatrixVectorActivation_1/s_axilite"
+        ]
+      },
+      "s_axilite_2_1": {
+        "interface_ports": [
+          "s_axilite_2",
+          "MatrixVectorActivation_2/s_axilite"
+        ]
+      },
+      "s_axilite_3_1": {
+        "interface_ports": [
+          "s_axilite_3",
+          "MatrixVectorActivation_3/s_axilite"
+        ]
+      },
+      "s_axilite_4_1": {
+        "interface_ports": [
+          "s_axilite_4",
+          "MatrixVectorActivation_4/s_axilite"
+        ]
+      },
+      "s_axilite_5_1": {
+        "interface_ports": [
+          "s_axilite_5",
+          "MatrixVectorActivation_5/s_axilite"
+        ]
+      }
+    },
+    "nets": {
+      "ap_clk_0_1": {
+        "ports": [
+          "ap_clk",
+          "StreamingFIFO_0/ap_clk",
+          "Thresholding_Batch_0/ap_clk",
+          "StreamingFIFO_1/ap_clk",
+          "ConvolutionInputGenerator_0/ap_clk",
+          "StreamingDataWidthConverter_Batch_0/ap_clk",
+          "StreamingFIFO_3/ap_clk",
+          "MatrixVectorActivation_0/ap_clk",
+          "StreamingDataWidthConverter_Batch_1/ap_clk",
+          "StreamingFIFO_5/ap_clk",
+          "ConvolutionInputGenerator_1/ap_clk",
+          "StreamingFIFO_6/ap_clk",
+          "StreamingDataWidthConverter_Batch_2/ap_clk",
+          "MatrixVectorActivation_1/ap_clk",
+          "StreamingMaxPool_Batch_0/ap_clk",
+          "StreamingFIFO_9/ap_clk",
+          "StreamingDataWidthConverter_Batch_3/ap_clk",
+          "ConvolutionInputGenerator_2/ap_clk",
+          "StreamingDataWidthConverter_Batch_4/ap_clk",
+          "MatrixVectorActivation_2/ap_clk",
+          "MatrixVectorActivation_3/ap_clk",
+          "StreamingDataWidthConverter_Batch_5/ap_clk",
+          "MatrixVectorActivation_4/ap_clk",
+          "StreamingDataWidthConverter_Batch_6/ap_clk",
+          "MatrixVectorActivation_5/ap_clk",
+          "LabelSelect_Batch_0/ap_clk"
+        ]
+      },
+      "ap_rst_n_0_1": {
+        "ports": [
+          "ap_rst_n",
+          "StreamingFIFO_0/ap_rst_n",
+          "Thresholding_Batch_0/ap_rst_n",
+          "StreamingFIFO_1/ap_rst_n",
+          "ConvolutionInputGenerator_0/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_0/ap_rst_n",
+          "StreamingFIFO_3/ap_rst_n",
+          "MatrixVectorActivation_0/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_1/ap_rst_n",
+          "StreamingFIFO_5/ap_rst_n",
+          "ConvolutionInputGenerator_1/ap_rst_n",
+          "StreamingFIFO_6/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_2/ap_rst_n",
+          "MatrixVectorActivation_1/ap_rst_n",
+          "StreamingMaxPool_Batch_0/ap_rst_n",
+          "StreamingFIFO_9/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_3/ap_rst_n",
+          "ConvolutionInputGenerator_2/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_4/ap_rst_n",
+          "MatrixVectorActivation_2/ap_rst_n",
+          "MatrixVectorActivation_3/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_5/ap_rst_n",
+          "MatrixVectorActivation_4/ap_rst_n",
+          "StreamingDataWidthConverter_Batch_6/ap_rst_n",
+          "MatrixVectorActivation_5/ap_rst_n",
+          "LabelSelect_Batch_0/ap_rst_n"
+        ]
+      }
+    },
+    "addressing": {
+      "/": {
+        "address_spaces": {
+          "s_axilite_0": {
+            "range": "64K",
+            "width": "16"
+          },
+          "s_axilite_1": {
+            "range": "64K",
+            "width": "16"
+          },
+          "s_axilite_2": {
+            "range": "64K",
+            "width": "16"
+          },
+          "s_axilite_3": {
+            "range": "64K",
+            "width": "16"
+          },
+          "s_axilite_4": {
+            "range": "64K",
+            "width": "16"
+          },
+          "s_axilite_5": {
+            "range": "64K",
+            "width": "16"
+          }
+        }
+      }
+    }
+  }
+}
