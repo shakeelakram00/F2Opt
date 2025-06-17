@@ -14,4 +14,5 @@ F^2Opt introduces two novel techniques:
    
 # Aopt Process:
 There are two ways to make use of Aopt:
-1. Provide the required 
+1. Provide the required inputs to the Python script, and use the Aopt provided folding parameters during accelerator build in folding file for each MVAU.
+2. Integrate the provided Python script into FINN flow, so the Aopt folding parameters will be automatically used during default build steps.  
